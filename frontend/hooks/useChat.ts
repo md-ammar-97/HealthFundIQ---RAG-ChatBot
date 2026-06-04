@@ -59,6 +59,7 @@ export function useChat() {
           is_refusal: false,
           intent: "ERROR",
           missing_data: false,
+          fund_name: null,
         },
         timestamp: new Date(),
       });
