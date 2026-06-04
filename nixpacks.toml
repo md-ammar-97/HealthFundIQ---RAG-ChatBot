@@ -1,11 +1,6 @@
 [variables]
 HF_HOME = "/opt/huggingface"
 
-[phases.install]
-cmds = [
-  "pip install -r requirements-backend.txt"
-]
-
 [phases.build]
 cmds = [
   "python -c \"from sentence_transformers import SentenceTransformer; SentenceTransformer('intfloat/multilingual-e5-base')\""
