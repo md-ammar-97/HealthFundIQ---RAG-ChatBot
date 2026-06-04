@@ -11,21 +11,27 @@
   "platform_url": "https://money.tmx.com/en/quote/HHL",
   "official_url": "https://harvestportfolios.com/etf/hhl/",
   "last_updated_from_source": null,
-  "fetch_timestamp": "2026-06-03T14:57:26.486443+05:30",
-  "nav_or_price": "$6.70",
-  "aum": "$1811.61M",
+  "fetch_timestamp": "2026-06-05T03:19:37.012713+05:30",
+  "nav_or_price": "$6.75",
+  "aum": "$1828.64M",
   "expense_ratio_or_mer_or_ter": null,
   "minimum_investment": null,
   "minimum_sip": null,
   "exit_load_or_redemption_fee": null,
-  "benchmark": null,
-  "fund_management": null,
+  "benchmark": "Asset Class EquityCategory Health CareStock Exchange Toronto Stock ExchangeTicker Symbol HHLProvider Harvest ETFs",
+  "fund_management": "Asset Class EquityCategory Health CareStock Exchange Toronto Stock ExchangeTicker Symbol HHLProvider Harvest ETFs",
   "fund_house_or_issuer": null,
   "investment_objective": null,
   "risk_rating_or_riskometer": null,
   "distribution_policy": "Monthly",
   "tax_information": null,
   "top_10_holdings": [
+    {
+      "name": "Agilent Technologies, Inc.",
+      "weight": "A US",
+      "ticker": null,
+      "isin": null
+    },
     {
       "name": "Eli Lilly and Company",
       "weight": "LLY US",
@@ -39,20 +45,8 @@
       "isin": null
     },
     {
-      "name": "Bristol-Myers Squibb Company",
-      "weight": "BMY US",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Novartis AG",
-      "weight": "NVS US",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Agilent Technologies, Inc.",
-      "weight": "A US",
+      "name": "Thermo Fisher Scientific Inc.",
+      "weight": "TMO US",
       "ticker": null,
       "isin": null
     },
@@ -63,8 +57,8 @@
       "isin": null
     },
     {
-      "name": "AstraZeneca PLC",
-      "weight": "AZN US",
+      "name": "Danaher Corporation",
+      "weight": "DHR US",
       "ticker": null,
       "isin": null
     },
@@ -75,14 +69,20 @@
       "isin": null
     },
     {
-      "name": "Johnson & Johnson",
-      "weight": "JNJ US",
+      "name": "UnitedHealth Group Incorporated",
+      "weight": "UNH US",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Thermo Fisher Scientific Inc.",
-      "weight": "TMO US",
+      "name": "Vertex Pharmaceuticals Incorporated",
+      "weight": "VRTX US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "AstraZeneca PLC",
+      "weight": "AZN US",
       "ticker": null,
       "isin": null
     }
@@ -93,8 +93,6 @@
   "missing_fields": [
     "expense_ratio_or_mer_or_ter",
     "minimum_investment",
-    "benchmark",
-    "fund_management",
     "fund_house_or_issuer",
     "investment_objective",
     "risk_rating_or_riskometer",
