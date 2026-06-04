@@ -7,7 +7,12 @@ import numpy as np
 logger = get_logger("embeddings.embedder")
 
 _MODEL: SentenceTransformer | None = None
-BGE_QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
+
+# multilingual-e5 requires explicit prefixes for asymmetric retrieval:
+# queries get "query: ", corpus passages get "passage: ".
+# These are no-ops for models that don't use instruction prefixes.
+QUERY_PREFIX = "query: "
+PASSAGE_PREFIX = "passage: "
 
 
 def _get_model() -> SentenceTransformer:
@@ -21,7 +26,7 @@ def _get_model() -> SentenceTransformer:
 
 def encode_query(query: str) -> list[float]:
     model = _get_model()
-    vec = model.encode(BGE_QUERY_PREFIX + query, normalize_embeddings=True)
+    vec = model.encode(QUERY_PREFIX + query, normalize_embeddings=True)
     return vec.tolist()
 
 
@@ -29,8 +34,7 @@ def encode_chunks(chunks: list[Chunk]) -> list[Chunk]:
     if not chunks:
         return []
     model = _get_model()
-    texts = [c.text for c in chunks]
-    # BGE documents do NOT use the query prefix
+    texts = [PASSAGE_PREFIX + c.text for c in chunks]
     vecs = model.encode(texts, normalize_embeddings=True, show_progress_bar=False)
 
     valid = []

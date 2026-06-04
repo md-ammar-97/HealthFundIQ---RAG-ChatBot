@@ -139,7 +139,7 @@ healthfundiq/
 ### 3.1 Create a Cluster
 
 1. Go to [cloud.qdrant.io](https://cloud.qdrant.io)
-2. Create a free-tier cluster (1 GB RAM, sufficient for ~400 chunks × 1024-dim)
+2. Create a free-tier cluster (1 GB RAM, sufficient for ~400 chunks × 768-dim)
 3. Note your **cluster URL**: `https://<cluster-id>.<region>.gcp.cloud.qdrant.io`
 4. Create an **API key** in the cluster settings
 
@@ -147,7 +147,7 @@ healthfundiq/
 
 The collection is created automatically on first `ingestion run` or `upsert_chunks` call. The `_ensure_collection()` function in `embeddings/store.py` handles:
 
-- Creates collection `healthcare_funds` with cosine distance and 1024-dim vectors
+- Creates collection `healthcare_funds` with cosine distance and 768-dim vectors
 - Creates payload indices for `fund_id`, `country`, `section`, `ticker`, `isin`, `source_type`, `domain_subcategory`
 
 You can also create it manually via Qdrant Cloud dashboard or the CLI:
@@ -163,7 +163,7 @@ client = QdrantClient(
 )
 client.create_collection(
     collection_name="healthcare_funds",
-    vectors_config=VectorParams(size=1024, distance=Distance.COSINE),
+    vectors_config=VectorParams(size=768, distance=Distance.COSINE),
 )
 ```
 
@@ -249,7 +249,7 @@ Set these in Railway Dashboard → Variables:
 GROQ_API_KEY=<your_groq_api_key>
 GROQ_MODEL=llama-3.3-70b-versatile
 GROQ_CLASSIFIER_MODEL=llama-3.1-8b-instant
-EMBEDDING_MODEL=BAAI/bge-large-en-v1.5
+EMBEDDING_MODEL=intfloat/multilingual-e5-base
 QDRANT_URL=https://<cluster-id>.gcp.cloud.qdrant.io
 QDRANT_API_KEY=<your_qdrant_api_key>
 QDRANT_COLLECTION=healthcare_funds
@@ -281,32 +281,19 @@ PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
 ```
 (Only do this if you can confirm all fund sources are parseable without JS rendering.)
 
-### 4.5 BGE Model Download
+### 4.5 Embedding Model
 
-`sentence-transformers` downloads `BAAI/bge-large-en-v1.5` (~1.34 GB) on first start. Railway has a 30-second health-check timeout. Work around this by:
+The default model is `intfloat/multilingual-e5-base` (~278 MB, 768-dim). It supports 100 languages including English and downloads in ~15 seconds on Railway's builders. No special handling needed — startup time is under 30 seconds.
 
-**Option A**: Pre-bake the model into the Docker image using a Dockerfile:
+**If you ever need to swap models**, update two places and re-run ingestion:
 
-```dockerfile
-FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-# Pre-download model into image cache
-RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('BAAI/bge-large-en-v1.5')"
-COPY . .
-EXPOSE 8002
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8002"]
-```
+| Setting | File | Value |
+|---|---|---|
+| `embedding_model` default | `config/settings.py` | model HF ID |
+| `_VECTOR_DIM` | `embeddings/store.py` | model output dimension |
+| `EMBEDDING_MODEL` | `.github/workflows/daily-ingestion.yml` | same HF ID |
 
-Set this in `railway.json`:
-```json
-{
-  "build": { "builder": "DOCKERFILE", "dockerfilePath": "Dockerfile" }
-}
-```
-
-**Option B**: Use a smaller model (`BAAI/bge-small-en-v1.5`, 384-dim, 24 MB) for faster cold starts. Update `settings.py` default and change `_VECTOR_DIM = 384` in `embeddings/store.py`. Re-run ingestion with the new model.
+You must also **delete and recreate the Qdrant collection** when the dimension changes (Qdrant collections are fixed-dimension).
 
 ### 4.6 Verify Backend
 
@@ -561,7 +548,7 @@ GitHub Actions free tier allows 2,000 minutes/month — a 30-min daily run uses 
 | Collections | 1 |
 | API requests | Unlimited |
 
-~400 chunks × 1024-dim × 4 bytes ≈ 1.6 MB. Well within free tier.
+~400 chunks × 768-dim × 4 bytes ≈ 1.2 MB. Well within free tier.
 
 ### 11.4 Railway Limits (Hobby Plan)
 
@@ -571,7 +558,7 @@ GitHub Actions free tier allows 2,000 minutes/month — a 30-min daily run uses 
 | CPU | 0.5 vCPU |
 | Egress | 100 GB/mo |
 
-BGE-large model uses ~1.3 GB RAM. **Use Hobby or Pro plan** ($5–20/mo) or switch to bge-small (384-dim, ~50 MB) for the free tier.
+`intfloat/multilingual-e5-base` uses ~400 MB RAM — fits comfortably within the Hobby plan's allocation.
 
 ---
 

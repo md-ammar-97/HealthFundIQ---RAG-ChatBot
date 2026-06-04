@@ -228,7 +228,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     groq_api_key: str
     groq_model: str = "llama-3.3-70b-versatile"
-    embedding_model: str = "BAAI/bge-small-en-v1.5"
+    embedding_model: str = "intfloat/multilingual-e5-base"
     chroma_persist_dir: str = "./vectorstore/chroma_db"
     chroma_collection: str = "healthcare_funds"
     top_k_retrieval: int = 6
@@ -426,27 +426,27 @@ Chunking rules:
 
 | Option | Model | Dim | Use when |
 |---|---|---|---|
-| Default (v1) | `BAAI/bge-small-en-v1.5` | 384 | Resource-constrained; fast local inference |
-| Upgrade | `BAAI/bge-base-en-v1.5` | 768 | Better retrieval quality |
-| Max quality | `BAAI/bge-large-en-v1.5` | 1024 | High-resource machines |
+| **Default** | `intfloat/multilingual-e5-base` | 768 | Production — multilingual, fits Railway memory |
+| Lighter | `intfloat/multilingual-e5-small` | 384 | Very memory-constrained (< 300 MB available) |
+| English-only max | `BAAI/bge-large-en-v1.5` | 1024 | High-RAM machines (≥ 2 GB), English only |
 
-All BGE models run locally via `sentence-transformers`. No external API cost.
+All models run locally via `sentence-transformers`. No external API cost.
 
-BGE-specific instruction prefix (improves retrieval quality):
-- Query: `"Represent this sentence for searching relevant passages: <query>"`
-- Document: no prefix needed for BGE.
+`multilingual-e5` instruction prefixes (required for correct asymmetric retrieval):
+- Query: `"query: <query>"`
+- Document: `"passage: <text>"`
 
 ### 5.2 Qdrant Cloud Schema
 
 Vector store: **Qdrant Cloud** (production) / Qdrant local file mode (dev)
 Collection name: `healthcare_funds`
-Vector dimension: 1024 (bge-large-en-v1.5) | Distance: Cosine
+Vector dimension: 768 (multilingual-e5-base) | Distance: Cosine
 
 ```python
 # Each point in the Qdrant collection:
 {
     "id": "<uuid5 derived from chunk_id>",   # deterministic UUID string
-    "vector": [...],                          # float list, 1024-dim (bge-large)
+    "vector": [...],                          # float list, 768-dim (multilingual-e5-base)
     "payload": {
         "chunk_id": "usa_xlv_cost_ratio",
         "fund_id": "usa_xlv",
@@ -872,7 +872,7 @@ On each run:
 3. Runs `python -m ingestion.run_ingestion`:
    - Re-fetches all 34 active fund URLs in `sources.yaml`.
    - Tries `backup_platform_urls` when primary sources miss important fields.
-   - Normalizes, chunks, embeds (BGE-large, 1024-dim).
+   - Normalizes, chunks, embeds (multilingual-e5-base, 768-dim).
    - Upserts into Qdrant Cloud (upsert by deterministic UUID, overwrites stale points).
 4. Commits updated `data/parsed/**/*.json` back to `main` with `[skip ci]`.
 
@@ -892,7 +892,7 @@ sources.yaml
     → normalizer.py       [map to normalized fields; merge official > pdf > platform > backups]
     → parsed_store.py     [save data/parsed/{country}/{fund_id}.json]
     → chunker.py          [split into section chunks]
-    → embedder.py         [BGE encode — 1024-dim bge-large]
+    → embedder.py         [multilingual-e5-base encode — 768-dim]
     → store.py            [Qdrant Cloud upsert]
     → logs/ingestion.log  [per-fund success / failure / missing fields]
 ```
@@ -931,7 +931,7 @@ GROQ_MODEL=llama-3.3-70b-versatile
 GROQ_CLASSIFIER_MODEL=llama-3.1-8b-instant
 
 # Embeddings
-EMBEDDING_MODEL=BAAI/bge-large-en-v1.5
+EMBEDDING_MODEL=intfloat/multilingual-e5-base
 
 # Qdrant Cloud
 QDRANT_URL=https://your-cluster-id.us-east4-0.gcp.cloud.qdrant.io
@@ -987,7 +987,7 @@ Error states:
 |---|---|
 | Semantic chunking by section (not fixed-size) | Enables metadata-filtered retrieval by field. Asking "what is the expense ratio?" retrieves only `cost_ratio` sections, not noise from holdings or objectives. |
 | Metadata filter before semantic search | Prevents cross-country and cross-fund confusion. "What is the MER of HHL?" should not retrieve VHT's expense ratio. |
-| BGE-large embedding model (bge-large-en-v1.5, 1024-dim) | Better retrieval quality than bge-small. Runs locally with no API cost. Privacy-safe. |
+| multilingual-e5-base embedding model (768-dim) | Supports 100 languages including English. Fits Railway's memory budget (~400 MB). Runs locally with no API cost. Uses `query:`/`passage:` prefixes for asymmetric retrieval. |
 | Groq API for generation | Fast inference; llama-3.3-70b has strong instruction-following for structured outputs and refusals. |
 | Two-stage guardrail (regex + LLM) | Regex catches high-confidence advice queries with zero LLM cost. LLM classifier handles edge cases only. |
 | Structured lookup before RAG | For factual fund-field questions, read `data/parsed/{fund_id}.json` directly — no vector search, no LLM call, deterministic answer. |
@@ -996,7 +996,7 @@ Error states:
 | Backup platform URLs per fund | When primary/official sources fail to extract important fields, ordered fallback URLs are tried automatically during ingestion. |
 | Normalization at ingestion time | Chunks stored with normalized labels. Retrieval and LLM prompts use one consistent vocabulary. No runtime translation. |
 | Variable corpus size per country | Japan (4 funds) and Singapore (non-listed funds) are valid corpus states. System must not require exactly 5 funds per country. |
-| Qdrant Cloud for vector store | Managed cloud Qdrant — no infrastructure to maintain. Free tier handles ~400 chunks at 1024-dim. Deterministic UUID5 IDs from chunk_id enable safe upsert. |
+| Qdrant Cloud for vector store | Managed cloud Qdrant — no infrastructure to maintain. Free tier handles ~400 chunks at 768-dim (~1.2 MB, well within 1 GB limit). Deterministic UUID5 IDs from chunk_id enable safe upsert. |
 | GitHub Actions cron for daily ingestion | Cleanly separates serving from data refresh. Railway runs as a pure stateless web server. Ingestion logs are visible in GitHub UI. Free tier allows ~900 min/month for a 30-min daily job. Manual re-runs and per-fund triggers available via `workflow_dispatch`. |
 | Next.js 14 frontend on Vercel | Production-grade React frontend with TanStack Query, Zustand, and Motion.dev. Deployed separately from the Python backend. |
 

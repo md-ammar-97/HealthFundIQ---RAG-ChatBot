@@ -14,7 +14,7 @@ _CLIENT: QdrantClient | None = None
 _COLLECTION_READY = False
 
 # Embedding dimension — must match the model configured in settings
-_VECTOR_DIM = 1024  # bge-large-en-v1.5; change to 384 if using bge-small
+_VECTOR_DIM = 768  # multilingual-e5-base; change to 384 for multilingual-e5-small
 
 
 def _get_client() -> QdrantClient:

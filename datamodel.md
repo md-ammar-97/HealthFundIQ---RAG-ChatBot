@@ -1193,7 +1193,7 @@ client.upsert(
     collection_name="healthcare_funds",
     points=[PointStruct(
         id="<uuid5 of 'usa_xlv_cost_ratio'>",   # deterministic UUID string
-        vector=[0.023, -0.147, ...],              # 1024-dim BGE-large vector
+        vector=[0.023, -0.147, ...],              # 768-dim multilingual-e5-base vector
         payload={
             "chunk_id":                  "usa_xlv_cost_ratio",
             "fund_id":                   "usa_xlv",

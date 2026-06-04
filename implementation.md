@@ -64,7 +64,7 @@ GROQ_MODEL=llama-3.3-70b-versatile
 GROQ_CLASSIFIER_MODEL=llama-3.1-8b-instant
 
 # Embeddings
-EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
+EMBEDDING_MODEL=intfloat/multilingual-e5-base
 
 # Vector Store
 CHROMA_PERSIST_DIR=./vectorstore/chroma_db
@@ -93,7 +93,7 @@ class Settings(BaseSettings):
     groq_api_key: str
     groq_model: str = "llama-3.3-70b-versatile"
     groq_classifier_model: str = "llama-3.1-8b-instant"
-    embedding_model: str = "BAAI/bge-small-en-v1.5"
+    embedding_model: str = "intfloat/multilingual-e5-base"
     chroma_persist_dir: str = "./vectorstore/chroma_db"
     chroma_collection: str = "healthcare_funds"
     top_k_retrieval: int = 6
@@ -3058,7 +3058,7 @@ Critical issues to verify during each phase before moving to the next:
 | Qdrant | Collection missing on first run | `_ensure_collection()` auto-creates with indices; safe to call on every request |
 | Qdrant | Score vs distance confusion | Qdrant returns cosine similarity (higher=better); store.py converts to distance: `distance = 1 - score` |
 | `.env` | Missing GROQ_API_KEY on startup | `settings = Settings()` raises `ValidationError` — catch at startup with clear message |
-| Railway | BGE-large model download timeout | Pre-bake model in Dockerfile or switch to bge-small (384-dim) — update `_VECTOR_DIM` in store.py |
+| Railway | Embedding model startup time | `intfloat/multilingual-e5-base` (~278 MB) loads in < 30s. If switching models, update `_VECTOR_DIM` in store.py and delete/recreate the Qdrant collection. |
 
 ---
 

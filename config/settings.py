@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     groq_api_key: str
     groq_model: str = "llama-3.3-70b-versatile"
     groq_classifier_model: str = "llama-3.1-8b-instant"
-    embedding_model: str = "BAAI/bge-large-en-v1.5"
+    embedding_model: str = "intfloat/multilingual-e5-base"
 
     # Qdrant Cloud (primary) — leave url/api_key empty to fall back to local file mode
     qdrant_url: str = ""
