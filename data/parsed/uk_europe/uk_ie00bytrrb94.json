@@ -1,0 +1,46 @@
+{
+  "fund_id": "uk_ie00bytrrb94",
+  "country_or_market": "UK/Europe",
+  "fund_name": "SPDR MSCI World Health Care UCITS ETF",
+  "ticker_or_identifier": "IE00BYTRRB94",
+  "fund_type": "UCITS ETF",
+  "domain_subcategory": "Broad Healthcare",
+  "currency": "USD",
+  "exchange": "LSE",
+  "source_type": "official",
+  "platform_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BYTRRB94",
+  "official_url": "https://www.ssga.com/nl/en_gb/intermediary/etfs/state-street-spdr-msci-world-health-care-ucits-etf-whea-na",
+  "last_updated_from_source": "Jun 2026",
+  "fetch_timestamp": "2026-06-03T14:57:30.767572+05:30",
+  "nav_or_price": null,
+  "aum": "EUR 451 m",
+  "expense_ratio_or_mer_or_ter": null,
+  "minimum_investment": "1 Share",
+  "minimum_sip": null,
+  "exit_load_or_redemption_fee": null,
+  "benchmark": "MSCI World Health Care 35/20 Capped Index",
+  "fund_management": "State Street Global Advisors Europe Limited",
+  "fund_house_or_issuer": "State Street Global Advisors Europe Limited",
+  "investment_objective": "The investment objective of the Fund is to track the performance of companies in the Health Care sector, across developed markets globally.",
+  "risk_rating_or_riskometer": null,
+  "distribution_policy": "Accumulating",
+  "tax_information": null,
+  "top_10_holdings": [
+    {
+      "name": "Capital Risk: Investing involves risk including the risk of loss of capital.",
+      "weight": null,
+      "ticker": null,
+      "isin": null
+    }
+  ],
+  "sector_exposure": null,
+  "geographic_exposure": null,
+  "documents": null,
+  "missing_fields": [
+    "nav_or_price",
+    "expense_ratio_or_mer_or_ter",
+    "risk_rating_or_riskometer",
+    "sector_exposure"
+  ],
+  "extraction_notes": []
+}

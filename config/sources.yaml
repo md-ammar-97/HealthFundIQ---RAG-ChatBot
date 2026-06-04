@@ -1,0 +1,782 @@
+funds:
+
+  # ─── INDIA ────────────────────────────────────────────────────────────────
+  - id: india_hdfc_pharma
+    country: India
+    fund_name: HDFC Pharma and Healthcare Fund Direct Growth
+    ticker: null
+    isin: null
+    fund_type: Mutual Fund
+    domain_subcategory: Pharma / Broad Healthcare
+    currency: INR
+    exchange: BSE / NSE
+    platform_url: https://groww.in/mutual-funds/hdfc-pharma-and-healthcare-fund-direct-growth
+    official_url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-pharma-and-healthcare-fund/direct
+    official_url_validated: false
+    use_playwright: true
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://www.etmoney.com/mutual-funds/hdfc-pharma-and-healthcare-fund-direct-growth/44167
+      - https://www.valueresearchonline.com/funds/43786/hdfc-pharma-and-healthcare-fund-direct-plan/
+
+  - id: india_nippon_pharma
+    country: India
+    fund_name: Nippon India Pharma Fund Direct Growth
+    ticker: null
+    isin: null
+    fund_type: Mutual Fund
+    domain_subcategory: Pharma
+    currency: INR
+    exchange: BSE / NSE
+    platform_url: https://groww.in/mutual-funds/nippon-india-pharma-fund-direct-growth
+    official_url: https://mf.nipponindiaim.com/FundsAndPerformance/Pages/NipponIndia-Pharma-Fund.aspx
+    official_url_validated: false
+    use_playwright: true
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://www.moneycontrol.com/mutual-funds/nav/nippon-india-pharma-fund-direct-plan/MRC1005
+      - https://www.valueresearchonline.com/funds/16150/nippon-india-pharma-fund-direct-plan/
+
+  - id: india_mirae_healthcare
+    country: India
+    fund_name: Mirae Asset Healthcare Fund Direct Growth
+    ticker: null
+    isin: null
+    fund_type: Mutual Fund
+    domain_subcategory: Broad Healthcare
+    currency: INR
+    exchange: BSE / NSE
+    platform_url: https://groww.in/mutual-funds/mirae-asset-healthcare-fund-direct-growth
+    official_url: https://www.miraeassetmf.co.in/mutual-fund-scheme/equity-fund/mirae-asset-healthcare-fund
+    official_url_validated: false
+    use_playwright: true
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://www.moneycontrol.com/mutual-funds/nav/mirae-asset-healthcare-fund-direct-plan/MMA141
+      - https://m.economictimes.com/mirae-asset-healthcare-fund-direct-plan/mffactsheet/schemeid-36382.cms
+
+  - id: india_sbi_healthcare
+    country: India
+    fund_name: SBI Healthcare Opportunities Fund Direct Growth
+    ticker: null
+    isin: null
+    fund_type: Mutual Fund
+    domain_subcategory: Broad Healthcare
+    currency: INR
+    exchange: BSE / NSE
+    platform_url: https://groww.in/mutual-funds/sbi-pharma-fund-direct-growth
+    official_url: null
+    official_url_validated: false
+    use_playwright: true
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://www.moneycontrol.com/mutual-funds/nav/sbi-healthcare-opportunities-fund-direct-plan/MSB497
+      - https://www.paytmmoney.com/mutual-funds/scheme/sbi-healthcare-opportunities-fund-direct-plan-growth/inf200k01up2
+      - https://coin.zerodha.com/mf/fund/INF200K01UP2/sbi-healthcare-opportunities-fund-direct-growth
+
+  - id: india_icici_phd
+    country: India
+    fund_name: ICICI Prudential Pharma Healthcare and Diagnostics Fund Direct Growth
+    ticker: null
+    isin: null
+    fund_type: Mutual Fund
+    domain_subcategory: Pharma / Broad Healthcare
+    currency: INR
+    exchange: BSE / NSE
+    platform_url: https://groww.in/mutual-funds/icici-prudential-pharma-healthcare-and-diagnostics-%28p.h.d%29-fund-direct-growth
+    official_url: https://www.icicipruamc.com/mutual-fund/equity-funds/icici-prudential-pharma-healthcare-and-diagnostics-%28p.h.d%29-fund/1634
+    official_url_validated: false
+    use_playwright: true
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://www.etmoney.com/mutual-funds/icici-prudential-pharma-healthcare-and-diagnostics-phd-fund-direct-growth/37014
+      - https://www.indmoney.com/mutual-funds/icici-prudential-pharma-healthcare-and-diagnostics-phd-fund-direct-growth-21388
+
+  - id: india_tata_pharma
+    country: India
+    fund_name: Tata India Pharma and Healthcare Fund Direct Growth
+    ticker: null
+    isin: null
+    fund_type: Mutual Fund
+    domain_subcategory: Pharma / Broad Healthcare
+    currency: INR
+    exchange: BSE / NSE
+    platform_url: https://groww.in/mutual-funds/tata-india-pharma-and-healthcare-fund-direct-growth
+    official_url: null
+    official_url_validated: false
+    use_playwright: true
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: true
+
+  - id: india_uti_healthcare
+    country: India
+    fund_name: UTI Healthcare Fund Direct Growth
+    ticker: null
+    isin: null
+    fund_type: Mutual Fund
+    domain_subcategory: Broad Healthcare
+    currency: INR
+    exchange: BSE / NSE
+    platform_url: https://groww.in/mutual-funds/uti-pharma-and-healthcare-fund-direct-growth
+    official_url: null
+    official_url_validated: false
+    use_playwright: true
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: true
+
+  # ─── USA ──────────────────────────────────────────────────────────────────
+  - id: usa_xlv
+    country: USA
+    fund_name: Health Care Select Sector SPDR ETF
+    ticker: XLV
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: NYSE Arca
+    platform_url: https://www.etf.com/XLV
+    official_url: https://www.ssga.com/us/en/intermediary/etfs/state-street-health-care-select-sector-spdr-etf-xlv
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://stockanalysis.com/etf/xlv/
+      - https://etfdb.com/etf/XLV/
+      - https://finance.yahoo.com/quote/XLV/
+
+  - id: usa_vht
+    country: USA
+    fund_name: Vanguard Health Care ETF
+    ticker: VHT
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: NYSE Arca
+    platform_url: https://www.etf.com/VHT
+    official_url: https://investor.vanguard.com/investment-products/etfs/profile/vht
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: true
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://stockanalysis.com/etf/vht/
+      - https://etfdb.com/etf/VHT/
+      - https://finance.yahoo.com/quote/VHT/
+
+  - id: usa_ixj
+    country: USA
+    fund_name: iShares Global Healthcare ETF
+    ticker: IXJ
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: NYSE Arca
+    platform_url: https://www.etf.com/IXJ
+    official_url: https://www.ishares.com/us/products/239744/ishares-global-healthcare-etf
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: true
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://finance.yahoo.com/quote/IXJ/
+      - https://stockanalysis.com/etf/ixj/
+      - https://etfdb.com/etf/IXJ/
+
+  - id: usa_ibb
+    country: USA
+    fund_name: iShares Biotechnology ETF
+    ticker: IBB
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Biotech
+    currency: USD
+    exchange: Nasdaq
+    platform_url: https://www.etf.com/IBB
+    official_url: https://www.ishares.com/us/products/239699/ishares-biotechnology-etf
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: true
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://finance.yahoo.com/quote/IBB/
+      - https://stockanalysis.com/etf/ibb/
+      - https://etfdb.com/etf/IBB/
+
+  - id: usa_fhlc
+    country: USA
+    fund_name: Fidelity MSCI Health Care Index ETF
+    ticker: FHLC
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: NYSE Arca
+    platform_url: https://www.etf.com/FHLC
+    official_url: https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=FHLC
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: true
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://finance.yahoo.com/quote/FHLC/
+      - https://etfdb.com/etf/FHLC/
+      - https://stockanalysis.com/etf/fhlc/
+
+  - id: usa_pph
+    country: USA
+    fund_name: VanEck Pharmaceutical ETF
+    ticker: PPH
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Pharma
+    currency: USD
+    exchange: Nasdaq
+    platform_url: https://www.etf.com/PPH
+    official_url: https://www.vaneck.com/us/en/investments/pharmaceutical-etf-pph/
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: true
+
+  # ─── CANADA ───────────────────────────────────────────────────────────────
+  - id: canada_hhl
+    country: Canada
+    fund_name: Harvest Healthcare Leaders Income ETF
+    ticker: HHL
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: CAD
+    exchange: TSX
+    platform_url: https://money.tmx.com/en/quote/HHL
+    official_url: https://harvestportfolios.com/etf/hhl/
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://stockanalysis.com/quote/tsx/HHL/
+      - https://finance.yahoo.com/quote/HHL.TO/
+      - https://www.marketwatch.com/investing/fund/hhl?countrycode=ca
+
+  - id: canada_xhc
+    country: Canada
+    fund_name: iShares Global Healthcare Index ETF CAD-Hedged
+    ticker: XHC
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: CAD
+    exchange: TSX
+    platform_url: https://money.tmx.com/en/quote/XHC
+    official_url: https://www.blackrock.com/ca/investors/en/products/239743/ishares-global-healthcare-index-etf-cadhedged-fund
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: true
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://finance.yahoo.com/quote/XHC.TO/
+      - https://global.morningstar.com/en-ca/investments/etfs/0P0000SWUE/quote
+      - https://www.barchart.com/etfs-funds/quotes/XHC.TO
+
+  - id: canada_zhu
+    country: Canada
+    fund_name: BMO Equal Weight US Health Care Index ETF
+    ticker: ZHU
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: CAD
+    exchange: TSX
+    platform_url: https://money.tmx.com/en/quote/ZHU
+    official_url: https://bmogam.com/ca-en/products/exchange-traded-fund/bmo-equal-weight-us-health-care-index-etf-zhu/
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://finance.yahoo.com/quote/ZHU.TO/
+      - https://www.morningstar.com/etfs/xtse/zhu/quote
+      - https://bmogam.com/ca-en/products/exchange-traded-fund/bmo-equal-weight-us-health-care-index-etf-zhu/
+
+  - id: canada_tdoc
+    country: Canada
+    fund_name: TD Global Healthcare Leaders Index ETF
+    ticker: TDOC
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: CAD
+    exchange: TSX
+    platform_url: https://money.tmx.com/en/quote/TDOC
+    official_url: https://www.td.com/ca/en/asset-management/funds/solutions/etfs/fundcard?fundId=7192&fundname=TD-Global-Healthcare-Leaders-Index-ETF
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://finance.yahoo.com/quote/TDOC.TO/
+      - https://www.barchart.com/etfs-funds/quotes/TDOC.TO
+      - https://www.morningstar.com/etfs/xtse/tdoc/quote
+
+  - id: canada_medx
+    country: Canada
+    fund_name: Global X Equal Weight Global Healthcare Index ETF
+    ticker: MEDX
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: CAD
+    exchange: TSX
+    platform_url: https://money.tmx.com/en/quote/MEDX
+    official_url: https://www.globalx.ca/product/medx
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://finance.yahoo.com/quote/MEDX.TO/
+      - https://markets.ft.com/data/etfs/tearsheet/holdings?s=MEDX%3ATOR
+      - https://www.globalx.ca/product/medx
+
+  - id: canada_life
+    country: Canada
+    fund_name: Evolve Global Healthcare Enhanced Yield Fund
+    ticker: LIFE
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: CAD
+    exchange: TSX
+    platform_url: https://finance.yahoo.com/quote/LIFE.TO/
+    official_url: https://evolveetfs.com/product/life/
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: true
+
+  # ─── CHINA / HONG KONG ────────────────────────────────────────────────────
+  - id: hk_2820_yahoo
+    country: China/HK
+    fund_name: Global X China Biotech ETF
+    ticker: "2820.HK"
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Biotech
+    currency: HKD
+    exchange: HKEX
+    platform_url: https://finance.yahoo.com/quote/2820.HK/
+    official_url: https://www.globalxetfs.com.hk/funds/china-biotech-etf/
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://www.hkex.com.hk/Market-Data/Securities-Prices/Exchange-Traded-Products/Exchange-Traded-Products-Quote?sc_lang=en&sym=2820
+      - https://global.morningstar.com/en-ea/investments/etfs/0P0000SWUE/quote
+
+  - id: hk_3174
+    country: China/HK
+    fund_name: CSOP Hang Seng Biotech ETF
+    ticker: "3174.HK"
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Biotech
+    currency: HKD
+    exchange: HKEX
+    platform_url: https://sg.finance.yahoo.com/quote/3174.HK/
+    official_url: https://www.csopasset.com/en/products/hk-health
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://finance.yahoo.com/quote/3174.HK/
+      - https://global.morningstar.com/en-ea/investments/etfs/0P0001N04Z/quote
+      - https://www.tradingview.com/symbols/HKEX-3174/
+
+  - id: hk_3069
+    country: China/HK
+    fund_name: ChinaAMC Hang Seng Biotech ETF
+    ticker: "3069.HK"
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Biotech
+    currency: HKD
+    exchange: HKEX
+    platform_url: https://finance.yahoo.com/quote/3069.HK/
+    official_url: https://www.chinaamc.com.hk/product/chinaamc-hang-seng-hong-kong-biotech-index-etf-3069-hk-9069-hk/
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://global.morningstar.com/en-ea/investments/etfs/0P0001LZV6/quote
+      - https://markets.ft.com/data/etfs/tearsheet/summary?s=3069%3AHKG%3AHKD
+
+  - id: us_kure
+    country: China/HK
+    fund_name: KraneShares MSCI All China Health Care Index ETF
+    ticker: KURE
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: NYSE Arca
+    platform_url: https://finance.yahoo.com/quote/KURE/
+    official_url: https://kraneshares.com/etf/kure/
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://stockanalysis.com/etf/kure/
+      - https://etfdb.com/etf/KURE/
+
+  - id: hk_2820_hkex
+    country: China/HK
+    fund_name: Global X China Biotech ETF (HKEX Quote)
+    ticker: "2820"
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Biotech
+    currency: HKD
+    exchange: HKEX
+    platform_url: https://www.hkex.com.hk/Market-Data/Securities-Prices/Exchange-Traded-Products/Exchange-Traded-Products-Quote?sc_lang=en&sym=2820
+    official_url: https://www.globalxetfs.com.hk/funds/china-biotech-etf/
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://finance.yahoo.com/quote/2820.HK/
+
+  # ─── JAPAN ────────────────────────────────────────────────────────────────
+  - id: jp_1621
+    country: Japan
+    fund_name: NEXT FUNDS TOPIX-17 Pharmaceutical ETF
+    ticker: "1621.T"
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Pharma
+    currency: JPY
+    exchange: TSE
+    platform_url: https://finance.yahoo.com/quote/1621.T/
+    official_url: https://nextfunds.jp/en/lineup/1621/
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://www.investing.com/etfs/next-funds-topix-17-pharmaceutical
+      - https://www.tradingview.com/symbols/TSE-1621/
+
+  - id: jp_2639
+    country: Japan
+    fund_name: Global X Japan Bio & Med Tech ETF
+    ticker: "2639.T"
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Biotech / Med-Tech
+    currency: JPY
+    exchange: TSE
+    platform_url: https://finance.yahoo.com/quote/2639.T/
+    official_url: https://globalxetfs.co.jp/en/funds/2639/index.html
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://markets.ft.com/data/etfs/tearsheet/summary?s=2639%3ATYO%3AJPY
+      - https://www.investing.com/etfs/2639
+
+  - id: jp_heal
+    country: Japan
+    fund_name: Global X HealthTech ETF
+    ticker: HEAL
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Med-Tech / Healthcare Innovation
+    currency: JPY
+    exchange: TSE
+    platform_url: https://finance.yahoo.com/quote/HEAL/
+    official_url: https://globalxetfs.co.jp/en/funds/heal/
+    official_url_validated: false
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://etfdb.com/etf/HEAL/
+      - https://www.nasdaq.com/market-activity/etf/heal
+
+  - id: jp_gnom
+    country: Japan
+    fund_name: Global X Genomics & Biotechnology ETF
+    ticker: GNOM
+    isin: null
+    fund_type: ETF
+    domain_subcategory: Biotech
+    currency: JPY
+    exchange: TSE
+    platform_url: https://finance.yahoo.com/quote/GNOM/
+    official_url: https://globalxetfs.co.jp/en/funds/gnom/
+    official_url_validated: false
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://etfdb.com/etf/GNOM/
+
+  # ─── UK / EUROPE ──────────────────────────────────────────────────────────
+  - id: uk_ie00b43hr379
+    country: UK/Europe
+    fund_name: iShares S&P 500 Health Care Sector UCITS ETF
+    ticker: null
+    isin: IE00B43HR379
+    fund_type: UCITS ETF
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: LSE
+    platform_url: https://www.justetf.com/en/etf-profile.html?isin=IE00B43HR379
+    official_url: https://www.ishares.com/uk/individual/en/products/280507/ishares-sp-500-health-care-sector-ucits-etf
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: true
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://markets.ft.com/data/etfs/tearsheet/summary?s=IUHC%3ALSE%3AUSD
+      - https://global.morningstar.com/en-nd/investments/etfs/0P000171ZS/quote
+
+  - id: uk_ie00byzk4776
+    country: UK/Europe
+    fund_name: iShares Healthcare Innovation UCITS ETF
+    ticker: null
+    isin: IE00BYZK4776
+    fund_type: UCITS ETF
+    domain_subcategory: Healthcare Innovation
+    currency: USD
+    exchange: LSE
+    platform_url: https://www.justetf.com/en/etf-profile.html?isin=IE00BYZK4776
+    official_url: https://www.ishares.com/uk/individual/en/products/284216/ishares-healthcare-innovation-ucits-etf
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: true
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://markets.ft.com/data/etfs/tearsheet/summary?s=HEAL%3ALSE%3AUSD
+      - https://global.morningstar.com/en-nd/investments/etfs/0P00018NKQ/quote
+
+  - id: uk_ie00bytrrb94
+    country: UK/Europe
+    fund_name: SPDR MSCI World Health Care UCITS ETF
+    ticker: null
+    isin: IE00BYTRRB94
+    fund_type: UCITS ETF
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: LSE
+    platform_url: https://www.justetf.com/en/etf-profile.html?isin=IE00BYTRRB94
+    official_url: https://www.ssga.com/nl/en_gb/intermediary/etfs/state-street-spdr-msci-world-health-care-ucits-etf-whea-na
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://markets.ft.com/data/etfs/tearsheet/summary?s=WHEA%3ALSE%3AUSD
+      - https://global.morningstar.com/en-gb/investments/etfs/0P00017YVK/quote?marketID=gb
+      - https://live.euronext.com/en/product/etfs/IE00BYTRRB94-XAMS/market-information
+
+  - id: uk_ie00bm67hk77
+    country: UK/Europe
+    fund_name: Xtrackers MSCI World Health Care UCITS ETF
+    ticker: null
+    isin: IE00BM67HK77
+    fund_type: UCITS ETF
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: LSE
+    platform_url: https://www.justetf.com/en/etf-profile.html?isin=IE00BM67HK77
+    official_url: https://etf.dws.com/en-ch/IE00BM67HK77-msci-world-health-care-ucits-etf-1c/
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://markets.ft.com/data/etfs/tearsheet/summary?s=XDWH%3ALSE%3AUSD
+      - https://global.morningstar.com/en-gb/investments/etfs/0P00017POZ/quote
+
+  - id: uk_ie00b3wmth43
+    country: UK/Europe
+    fund_name: Invesco US Health Care Sector UCITS ETF
+    ticker: null
+    isin: IE00B3WMTH43
+    fund_type: UCITS ETF
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: LSE
+    platform_url: https://www.justetf.com/en/etf-profile.html?isin=IE00B3WMTH43
+    official_url: https://etf.invesco.com/gb/private/en/product/invesco-us-health-care-sector-ucits-etf/trading-information
+    official_url_validated: false
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://markets.ft.com/data/etfs/tearsheet/summary?s=XLVS%3ALSE%3AUSD
+      - https://global.morningstar.com/en-eu/investments/etfs/0P0000X05L/quote
+
+  # ─── SINGAPORE ────────────────────────────────────────────────────────────
+  - id: sg_wellington
+    country: Singapore
+    fund_name: Wellington Global Health Care Equity Fund
+    ticker: null
+    isin: null
+    fund_type: Fund
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: null
+    platform_url: https://www.wellington.com/en-sg/intermediary/funds/global-health-care-equity-fund
+    official_url: https://www.wellington.com/en-sg/intermediary/funds/global-health-care-equity-fund
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://global.morningstar.com/en-gb/investments/funds/0P0000ZMZU/quote
+      - https://markets.ft.com/data/funds/tearsheet/summary?s=ie00b0590k11%3Ausd
+
+  - id: sg_amova
+    country: Singapore
+    fund_name: Amova Asia Healthcare Fund
+    ticker: null
+    isin: null
+    fund_type: Fund
+    domain_subcategory: Broad Healthcare
+    currency: JPY
+    exchange: null
+    platform_url: https://sg.amova-am.com/general/funds/detail/amova-asia-healthcare-fund-jpy-class
+    official_url: https://sg.amova-am.com/general/funds/detail/amova-asia-healthcare-fund-jpy-class
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: true
+    pdf_url: https://sg.amova-am.com/docs/default-source/sg-library/fund/factsheet/AMOVA-ASIA-HEALTHCARE-FUND-FACTSHEET.pdf
+    is_backup: false
+    backup_platform_urls:
+      - https://global.morningstar.com/en-ea/investments/funds/0P00016AE3/quote
+
+  - id: sg_fidelity
+    country: Singapore
+    fund_name: Fidelity Funds Global Healthcare Fund Singapore
+    ticker: null
+    isin: null
+    fund_type: Fund
+    domain_subcategory: Broad Healthcare
+    currency: USD
+    exchange: null
+    platform_url: https://www.fidelity.com.sg/investment/equity/global-healthcare
+    official_url: https://www.fidelity.com.sg/investment/equity/global-healthcare
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: true
+    pdf_url: https://www.fidelityinternational.com/FILPS/Documents/en/current/pfr.en.gb.LU0882574055.pdf
+    is_backup: false
+    backup_platform_urls:
+      - https://global.morningstar.com/en-gb/investments/funds/F00000PPKH/quote
+
+  - id: sg_sgx_index
+    country: Singapore
+    fund_name: SGX Healthcare Index
+    ticker: null
+    isin: null
+    fund_type: Index
+    domain_subcategory: Broad Healthcare
+    currency: SGD
+    exchange: SGX
+    platform_url: https://www.sgx.com/indices/products/sgxhc
+    official_url: https://www.sgx.com/indices/products/sgxhc
+    official_url_validated: true
+    use_playwright: false
+    official_use_playwright: false
+    has_pdf: false
+    pdf_url: null
+    is_backup: false
+    backup_platform_urls:
+      - https://finance.yahoo.com/quote/SGXHC.SI/
+      - https://markets.ft.com/data/indices/tearsheet/summary?s=_SGXHC%3ASES

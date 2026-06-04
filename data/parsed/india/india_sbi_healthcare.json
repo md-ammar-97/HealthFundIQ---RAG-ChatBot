@@ -1,0 +1,103 @@
+{
+  "fund_id": "india_sbi_healthcare",
+  "country_or_market": "India",
+  "fund_name": "SBI Healthcare Opportunities Fund Direct Growth",
+  "ticker_or_identifier": null,
+  "fund_type": "Mutual Fund",
+  "domain_subcategory": "Broad Healthcare",
+  "currency": "INR",
+  "exchange": "BSE / NSE",
+  "source_type": "platform",
+  "platform_url": "https://groww.in/mutual-funds/sbi-pharma-fund-direct-growth",
+  "official_url": null,
+  "last_updated_from_source": "Oct 2013",
+  "fetch_timestamp": "2026-06-03T14:57:28.376128+05:30",
+  "nav_or_price": "₹526.68",
+  "aum": "₹4,323.29 Cr",
+  "expense_ratio_or_mer_or_ter": null,
+  "minimum_investment": null,
+  "minimum_sip": null,
+  "exit_load_or_redemption_fee": null,
+  "benchmark": "BSE Healthcare Total Return Index",
+  "fund_management": null,
+  "fund_house_or_issuer": null,
+  "investment_objective": "The scheme seeks to provide the investors with the opportunity of long-term capital appreciation by investing in a diversified portfolio of equity and equity related securities in Healthcare space.",
+  "risk_rating_or_riskometer": null,
+  "distribution_policy": null,
+  "tax_information": null,
+  "top_10_holdings": [
+    {
+      "name": "Sun Pharmaceutical Industries Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Divi's Laboratories Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Acutaas Chemicals Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Apollo Hospitals Enterprise Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Max Healthcare Institute Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Aster DM Healthcare Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Lupin Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Torrent Pharmaceuticals Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Anthem Biosciences Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Aether Industries Ltd.",
+      "weight": "Chemicals",
+      "ticker": null,
+      "isin": null
+    }
+  ],
+  "sector_exposure": null,
+  "geographic_exposure": null,
+  "documents": null,
+  "missing_fields": [
+    "expense_ratio_or_mer_or_ter",
+    "minimum_investment",
+    "fund_management",
+    "fund_house_or_issuer",
+    "risk_rating_or_riskometer",
+    "sector_exposure",
+    "distribution_policy"
+  ],
+  "extraction_notes": []
+}

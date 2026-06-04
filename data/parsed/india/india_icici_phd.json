@@ -1,0 +1,103 @@
+{
+  "fund_id": "india_icici_phd",
+  "country_or_market": "India",
+  "fund_name": "ICICI Prudential Pharma Healthcare and Diagnostics Fund Direct Growth",
+  "ticker_or_identifier": null,
+  "fund_type": "Mutual Fund",
+  "domain_subcategory": "Pharma / Broad Healthcare",
+  "currency": "INR",
+  "exchange": "BSE / NSE",
+  "source_type": "platform",
+  "platform_url": "https://groww.in/mutual-funds/icici-prudential-pharma-healthcare-and-diagnostics-%28p.h.d%29-fund-direct-growth",
+  "official_url": null,
+  "last_updated_from_source": "Oct 1993",
+  "fetch_timestamp": "2026-06-03T14:57:27.906185+05:30",
+  "nav_or_price": "₹44.34",
+  "aum": "₹6,668.95 Cr",
+  "expense_ratio_or_mer_or_ter": null,
+  "minimum_investment": null,
+  "minimum_sip": null,
+  "exit_load_or_redemption_fee": null,
+  "benchmark": "BSE Healthcare Total Return Index",
+  "fund_management": null,
+  "fund_house_or_issuer": null,
+  "investment_objective": "The scheme seeks to generate long-term capital appreciation by creating a portfolio that is invested in equity and equity related securities of pharma, healthcare, hospitals, diagnostics, wellness and allied companies.",
+  "risk_rating_or_riskometer": null,
+  "distribution_policy": null,
+  "tax_information": null,
+  "top_10_holdings": [
+    {
+      "name": "Sun Pharmaceutical Industries Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Cipla Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Mankind Pharma Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Divi's Laboratories Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Dr. Reddy's Laboratories Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Biocon Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Suven Pharmaceuticals Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Lupin Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Medplus Health Services Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Alkem Laboratories Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    }
+  ],
+  "sector_exposure": null,
+  "geographic_exposure": null,
+  "documents": null,
+  "missing_fields": [
+    "expense_ratio_or_mer_or_ter",
+    "minimum_investment",
+    "fund_management",
+    "fund_house_or_issuer",
+    "risk_rating_or_riskometer",
+    "sector_exposure",
+    "distribution_policy"
+  ],
+  "extraction_notes": []
+}

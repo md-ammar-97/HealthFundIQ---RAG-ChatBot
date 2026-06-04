@@ -1,0 +1,104 @@
+{
+  "fund_id": "india_mirae_healthcare",
+  "country_or_market": "India",
+  "fund_name": "Mirae Asset Healthcare Fund Direct Growth",
+  "ticker_or_identifier": null,
+  "fund_type": "Mutual Fund",
+  "domain_subcategory": "Broad Healthcare",
+  "currency": "INR",
+  "exchange": "BSE / NSE",
+  "source_type": "platform",
+  "platform_url": "https://groww.in/mutual-funds/mirae-asset-healthcare-fund-direct-growth",
+  "official_url": null,
+  "last_updated_from_source": "Nov 2007",
+  "fetch_timestamp": "2026-06-03T14:57:28.071736+05:30",
+  "nav_or_price": "₹46.56",
+  "aum": "₹2,939.23 Cr",
+  "expense_ratio_or_mer_or_ter": null,
+  "minimum_investment": null,
+  "minimum_sip": null,
+  "exit_load_or_redemption_fee": null,
+  "benchmark": "BSE Healthcare Total Return Index",
+  "fund_management": null,
+  "fund_house_or_issuer": null,
+  "investment_objective": null,
+  "risk_rating_or_riskometer": null,
+  "distribution_policy": null,
+  "tax_information": null,
+  "top_10_holdings": [
+    {
+      "name": "Sun Pharmaceutical Industries Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Divi's Laboratories Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Glenmark Pharmaceuticals Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Chemicals & Pharmaceuticals Ltd. — Healthcare",
+      "weight": null,
+      "ticker": "JB",
+      "isin": null
+    },
+    {
+      "name": "Apollo Hospitals Enterprise Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Lupin Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Dr. Reddy's Laboratories Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Aurobindo Pharma Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Fortis Healthcare Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Laurus Labs Ltd.",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    }
+  ],
+  "sector_exposure": null,
+  "geographic_exposure": null,
+  "documents": null,
+  "missing_fields": [
+    "expense_ratio_or_mer_or_ter",
+    "minimum_investment",
+    "fund_management",
+    "fund_house_or_issuer",
+    "investment_objective",
+    "risk_rating_or_riskometer",
+    "sector_exposure",
+    "distribution_policy"
+  ],
+  "extraction_notes": []
+}

@@ -1,0 +1,104 @@
+{
+  "fund_id": "canada_hhl",
+  "country_or_market": "Canada",
+  "fund_name": "Harvest Healthcare Leaders Income ETF",
+  "ticker_or_identifier": "HHL",
+  "fund_type": "ETF",
+  "domain_subcategory": "Broad Healthcare",
+  "currency": "CAD",
+  "exchange": "TSX",
+  "source_type": "official",
+  "platform_url": "https://money.tmx.com/en/quote/HHL",
+  "official_url": "https://harvestportfolios.com/etf/hhl/",
+  "last_updated_from_source": null,
+  "fetch_timestamp": "2026-06-03T14:57:26.486443+05:30",
+  "nav_or_price": "$6.70",
+  "aum": "$1811.61M",
+  "expense_ratio_or_mer_or_ter": null,
+  "minimum_investment": null,
+  "minimum_sip": null,
+  "exit_load_or_redemption_fee": null,
+  "benchmark": null,
+  "fund_management": null,
+  "fund_house_or_issuer": null,
+  "investment_objective": null,
+  "risk_rating_or_riskometer": null,
+  "distribution_policy": "Monthly",
+  "tax_information": null,
+  "top_10_holdings": [
+    {
+      "name": "Eli Lilly and Company",
+      "weight": "LLY US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "AbbVie Inc.",
+      "weight": "ABBV US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Bristol-Myers Squibb Company",
+      "weight": "BMY US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Novartis AG",
+      "weight": "NVS US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Agilent Technologies, Inc.",
+      "weight": "A US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Amgen Inc.",
+      "weight": "AMGN US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "AstraZeneca PLC",
+      "weight": "AZN US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Elevance Health, Inc.",
+      "weight": "ELV US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Johnson & Johnson",
+      "weight": "JNJ US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Thermo Fisher Scientific Inc.",
+      "weight": "TMO US",
+      "ticker": null,
+      "isin": null
+    }
+  ],
+  "sector_exposure": null,
+  "geographic_exposure": null,
+  "documents": null,
+  "missing_fields": [
+    "expense_ratio_or_mer_or_ter",
+    "minimum_investment",
+    "benchmark",
+    "fund_management",
+    "fund_house_or_issuer",
+    "investment_objective",
+    "risk_rating_or_riskometer",
+    "sector_exposure"
+  ],
+  "extraction_notes": []
+}

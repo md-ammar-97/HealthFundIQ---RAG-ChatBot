@@ -1,0 +1,104 @@
+{
+  "fund_id": "usa_ixj",
+  "country_or_market": "USA",
+  "fund_name": "iShares Global Healthcare ETF",
+  "ticker_or_identifier": "IXJ",
+  "fund_type": "ETF",
+  "domain_subcategory": "Broad Healthcare",
+  "currency": "USD",
+  "exchange": "NYSE Arca",
+  "source_type": "official",
+  "platform_url": "https://www.etf.com/IXJ",
+  "official_url": "https://www.ishares.com/us/products/239744/ishares-global-healthcare-etf",
+  "last_updated_from_source": null,
+  "fetch_timestamp": "2026-06-03T14:57:31.737717+05:30",
+  "nav_or_price": "$91.9552",
+  "aum": "$3,567,596,415",
+  "expense_ratio_or_mer_or_ter": "0.40%",
+  "minimum_investment": null,
+  "minimum_sip": null,
+  "exit_load_or_redemption_fee": null,
+  "benchmark": null,
+  "fund_management": null,
+  "fund_house_or_issuer": null,
+  "investment_objective": null,
+  "risk_rating_or_riskometer": null,
+  "distribution_policy": null,
+  "tax_information": null,
+  "top_10_holdings": [
+    {
+      "name": "— ELI LILLY",
+      "weight": null,
+      "ticker": "LLY",
+      "isin": null
+    },
+    {
+      "name": "— JOHNSON & JOHNSON",
+      "weight": null,
+      "ticker": "JNJ",
+      "isin": null
+    },
+    {
+      "name": "— ABBVIE INC",
+      "weight": null,
+      "ticker": "ABBV",
+      "isin": null
+    },
+    {
+      "name": "— UNITEDHEALTH GROUP INC",
+      "weight": null,
+      "ticker": "UNH",
+      "isin": null
+    },
+    {
+      "name": "— MERCK & CO INC",
+      "weight": null,
+      "ticker": "MRK",
+      "isin": null
+    },
+    {
+      "name": "— ROCHE PS PAR AG",
+      "weight": null,
+      "ticker": "ROP",
+      "isin": null
+    },
+    {
+      "name": "— ASTRAZENECA PLC",
+      "weight": null,
+      "ticker": "AZN",
+      "isin": null
+    },
+    {
+      "name": "— NOVARTIS AG",
+      "weight": null,
+      "ticker": "NOVN",
+      "isin": null
+    },
+    {
+      "name": "— THERMO FISHER SCIENTIFIC INC",
+      "weight": null,
+      "ticker": "TMO",
+      "isin": null
+    },
+    {
+      "name": "— AMGEN INC",
+      "weight": null,
+      "ticker": "AMGN",
+      "isin": null
+    }
+  ],
+  "sector_exposure": null,
+  "geographic_exposure": null,
+  "documents": null,
+  "missing_fields": [
+    "minimum_investment",
+    "benchmark",
+    "fund_management",
+    "fund_house_or_issuer",
+    "investment_objective",
+    "risk_rating_or_riskometer",
+    "sector_exposure",
+    "distribution_policy"
+  ],
+  "extraction_notes": []
+}

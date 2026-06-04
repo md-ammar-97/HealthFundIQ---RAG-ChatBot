@@ -1,0 +1,61 @@
+name: Daily Corpus Ingestion
+
+on:
+  schedule:
+    # 4:30 AM UTC = 10:00 AM IST
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+    inputs:
+      fund_id:
+        description: "Single fund ID to re-ingest (leave empty to run all)"
+        required: false
+        default: ""
+
+jobs:
+  ingest:
+    name: Run Ingestion Pipeline
+    runs-on: ubuntu-latest
+    timeout-minutes: 90       # full run across 34 funds takes ~30–60 min
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright Chromium
+        run: |
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run ingestion
+        env:
+          GROQ_API_KEY:            ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL:              llama-3.3-70b-versatile
+          GROQ_CLASSIFIER_MODEL:   llama-3.1-8b-instant
+          EMBEDDING_MODEL:         BAAI/bge-large-en-v1.5
+          QDRANT_URL:              ${{ secrets.QDRANT_URL }}
+          QDRANT_API_KEY:          ${{ secrets.QDRANT_API_KEY }}
+          QDRANT_COLLECTION:       healthcare_funds
+          TOP_K_RETRIEVAL:         "6"
+          LOG_LEVEL:               INFO
+        run: python -m ingestion.run_ingestion
+
+      - name: Commit updated parsed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/parsed/
+          # Only commit if there are actual changes; [skip ci] prevents deploy re-trigger
+          git diff --staged --quiet || git commit -m "chore: daily corpus refresh $(date -u '+%Y-%m-%d') [skip ci]"
+          git push

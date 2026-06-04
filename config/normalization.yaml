@@ -1,0 +1,83 @@
+# Structure: normalized_key → country → [list of raw label variants]
+# Matching is case-insensitive; partial match is acceptable
+
+cost_ratio:
+  India:    ["expense ratio", "total expense ratio", "ter"]
+  USA:      ["expense ratio", "gross expense ratio", "net expense ratio", "total annual fund operating expenses"]
+  Canada:   ["mer", "management expense ratio", "management fee", "total mer"]
+  China/HK: ["expense ratio", "management fee", "total expense ratio"]
+  Japan:    ["expense ratio", "management fee", "total cost ratio"]
+  UK/Europe: ["ter", "total expense ratio", "ongoing charges", "ongoing charge figure", "ocf"]
+  Singapore: ["expense ratio", "ter", "management fee", "mer"]
+
+risk:
+  India:    ["riskometer", "risk level", "risk-o-meter"]
+  USA:      ["risk level", "volatility"]
+  Canada:   ["risk rating", "risk classification"]
+  China/HK: ["risk level", "risk rating"]
+  Japan:    ["risk level", "risk indicator"]
+  UK/Europe: ["srri", "synthetic risk and reward indicator", "risk indicator", "risk rating"]
+  Singapore: ["risk rating", "risk class", "risk level"]
+
+fund_size:
+  India:    ["aum", "assets under management", "fund size", "corpus"]
+  USA:      ["net assets", "aum", "total net assets", "fund assets"]
+  Canada:   ["net assets", "aum", "fund assets"]
+  China/HK: ["net asset value", "fund size", "aum"]
+  Japan:    ["net assets", "fund assets", "pure assets"]
+  UK/Europe: ["fund size", "total net assets", "aum", "net assets"]
+  Singapore: ["aum", "fund size", "net assets"]
+
+price:
+  India:    ["nav", "net asset value", "current nav"]
+  USA:      ["nav", "market price", "closing price", "net asset value"]
+  Canada:   ["nav", "market price", "net asset value"]
+  China/HK: ["nav", "market price", "closing price"]
+  Japan:    ["nav", "market price", "current price"]
+  UK/Europe: ["nav", "net asset value", "market price"]
+  Singapore: ["nav", "market price"]
+
+exit_cost:
+  India:    ["exit load", "redemption charge"]
+  USA:      ["redemption fee", "sales load", "deferred sales charge", "cdsc"]
+  Canada:   ["sales charge", "redemption fee", "dsc", "trailer fee"]
+  China/HK: ["redemption fee", "exit fee"]
+  Japan:    ["redemption fee", "exit fee"]
+  UK/Europe: ["entry charge", "exit charge", "redemption charge"]
+  Singapore: ["redemption fee", "exit fee", "sales charge"]
+
+fund_manager:
+  India:    ["fund manager", "managed by", "portfolio manager"]
+  USA:      ["portfolio manager", "investment adviser", "advisor", "managed by"]
+  Canada:   ["portfolio manager", "managed by", "investment manager"]
+  China/HK: ["fund manager", "portfolio manager", "managed by"]
+  Japan:    ["fund manager", "portfolio manager"]
+  UK/Europe: ["investment manager", "portfolio manager", "fund manager", "managed by"]
+  Singapore: ["fund manager", "portfolio manager", "investment manager"]
+
+fund_house:
+  India:    ["fund house", "amc", "asset management company", "mutual fund"]
+  USA:      ["issuer", "adviser", "investment adviser", "fund company", "provider"]
+  Canada:   ["manager", "management company", "issuer", "provider"]
+  China/HK: ["issuer", "fund manager", "management company"]
+  Japan:    ["management company", "issuer", "fund manager"]
+  UK/Europe: ["issuer", "asset manager", "investment manager", "management company"]
+  Singapore: ["fund manager", "issuer", "management company", "asset manager"]
+
+min_investment:
+  India:    ["minimum lumpsum", "min lumpsum", "minimum investment amount", "minimum purchase"]
+  USA:      ["minimum investment", "investment minimum", "min investment"]
+  Canada:   ["minimum investment", "min purchase", "minimum initial investment"]
+  China/HK: ["minimum investment", "min subscription"]
+  Japan:    ["minimum investment", "minimum subscription amount"]
+  UK/Europe: ["minimum investment", "minimum subscription", "min initial investment"]
+  Singapore: ["minimum investment", "minimum subscription"]
+
+benchmark:
+  India:    ["benchmark", "benchmark index", "performance benchmark"]
+  USA:      ["benchmark index", "index tracked", "underlying index", "benchmark"]
+  Canada:   ["benchmark", "underlying index", "reference index"]
+  China/HK: ["benchmark", "underlying index", "reference index"]
+  Japan:    ["benchmark", "target index"]
+  UK/Europe: ["benchmark", "reference index", "underlying index", "tracked index"]
+  Singapore: ["benchmark", "reference index"]
