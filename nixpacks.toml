@@ -1,9 +1,6 @@
 [variables]
 HF_HOME = "/opt/huggingface"
 
-[phases.setup]
-nixPkgs = ["python311"]
-
 [phases.install]
 cmds = [
   "pip install -r requirements-backend.txt"
