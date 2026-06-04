@@ -16,7 +16,7 @@ async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), 30_000);
   try {
-    const res = await fetch(`${BASE}${path}`, {
+    const res = await fetch(`/api/proxy${path}`, {
       headers: { "Content-Type": "application/json" },
       signal: controller.signal,
       ...init,
