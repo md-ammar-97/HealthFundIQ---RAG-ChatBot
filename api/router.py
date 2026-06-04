@@ -307,7 +307,7 @@ async def health():
     return HealthResponse(
         status="ok",
         timestamp=datetime.now(IST).isoformat(),
-        corpus_chunks=get_collection_count(),
+        corpus_chunks=0,
     )
 
 

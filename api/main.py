@@ -15,6 +15,12 @@ async def lifespan(app: FastAPI):
     logger.info("HealthFundIQ API starting up")
     from embeddings.embedder import _get_model
     _get_model()  # pre-load BGE model into memory
+    try:
+        from embeddings.store import _ensure_collection
+        _ensure_collection()
+        logger.info("Qdrant collection ready")
+    except Exception as e:
+        logger.warning(f"Qdrant pre-warm failed (will retry on first request): {e}")
 
     yield
 
