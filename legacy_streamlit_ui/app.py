@@ -1,6 +1,9 @@
+import os
 import streamlit as st
 import requests
 import yaml
+
+_API_BASE = os.getenv("API_BASE_URL", "http://localhost:8002")
 
 st.set_page_config(
     page_title="HealthFundIQ — Global Healthcare Funds Research",
@@ -40,7 +43,7 @@ with tab_explorer:
         params = {}
         if selected_country:
             params["country"] = selected_country
-        resp = requests.get("http://localhost:8002/funds", params=params, timeout=5)
+        resp = requests.get(f"{_API_BASE}/funds", params=params, timeout=5)
         funds = resp.json()
         if not funds:
             st.info("No funds found for the selected filter.")
@@ -72,7 +75,7 @@ with tab_compare:
 with tab_sources:
     st.markdown("### Corpus Status")
     try:
-        resp = requests.get("http://localhost:8002/health", timeout=5)
+        resp = requests.get(f"{_API_BASE}/health", timeout=5)
         h = resp.json()
         st.metric("Corpus Chunks", h.get("corpus_chunks", 0))
         st.caption(f"Last checked: {h.get('timestamp', 'N/A')}")

@@ -304,10 +304,11 @@ def _country_total_aum(country: str, funds: list[dict]) -> "ChatResponse":
 
 @router.get("/health", response_model=HealthResponse)
 async def health():
+    from embeddings.store import get_collection_count
     return HealthResponse(
         status="ok",
         timestamp=datetime.now(IST).isoformat(),
-        corpus_chunks=0,
+        corpus_chunks=get_collection_count(),
     )
 
 

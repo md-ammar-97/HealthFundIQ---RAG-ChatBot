@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 from ui.components.source_card import render_source_card
 
-API_BASE = "http://localhost:8002"
+import os
+API_BASE = os.getenv("API_BASE_URL", "http://localhost:8002")
 
 EXAMPLE_CHIPS = [
     ("Expense ratio", "What is the expense ratio of HDFC Pharma and Healthcare Fund?"),

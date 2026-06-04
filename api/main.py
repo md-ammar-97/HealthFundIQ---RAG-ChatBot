@@ -10,11 +10,7 @@ logger = get_logger("api.main")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: warm up embedding model only.
-    # Daily ingestion is handled by GitHub Actions (see .github/workflows/daily-ingestion.yml).
     logger.info("HealthFundIQ API starting up")
-    from embeddings.embedder import _get_model
-    _get_model()  # pre-load BGE model into memory
     try:
         from embeddings.store import _ensure_collection
         _ensure_collection()
