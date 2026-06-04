@@ -17,7 +17,7 @@ jobs:
       - uses: railwayapp/railway-action@v1
         with:
           railway-token: ${{ secrets.RAILWAY_TOKEN }}
-          service: healthfundiq-backend
+          service: considerate-warmth
 
   deploy-frontend:
     name: Deploy Frontend to Vercel
