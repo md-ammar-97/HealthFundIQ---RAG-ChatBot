@@ -11,10 +11,10 @@
   "platform_url": "https://finance.yahoo.com/quote/KURE/",
   "official_url": "https://kraneshares.com/etf/kure/",
   "last_updated_from_source": null,
-  "fetch_timestamp": "2026-06-05T14:14:11.482018+05:30",
+  "fetch_timestamp": "2026-06-06T13:14:59.006263+05:30",
   "nav_or_price": "$10,000",
-  "aum": "$68,890,307",
-  "expense_ratio_or_mer_or_ter": "9.27%",
+  "aum": "$68,543,686",
+  "expense_ratio_or_mer_or_ter": "9.04%",
   "minimum_investment": null,
   "minimum_sip": null,
   "exit_load_or_redemption_fee": null,
@@ -27,7 +27,7 @@
   "tax_information": null,
   "top_10_holdings": [
     {
-      "name": "50",
+      "name": "49",
       "weight": null,
       "ticker": null,
       "isin": null
