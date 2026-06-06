@@ -13,7 +13,7 @@ class ApiError extends Error {
 
 async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> {
   const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 30_000);
+  const timeoutId = setTimeout(() => controller.abort(), 60_000);
   try {
     const res = await fetch(`/api/proxy${path}`, {
       headers: { "Content-Type": "application/json" },
@@ -27,7 +27,7 @@ async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> {
     return res.json() as Promise<T>;
   } catch (err) {
     if ((err as Error).name === "AbortError") {
-      throw new ApiError(408, "Request timed out. The backend may be slow — please try again.");
+      throw new ApiError(408, "Request timed out after 60 s. The backend may be under load — please try again.");
     }
     throw err;
   } finally {

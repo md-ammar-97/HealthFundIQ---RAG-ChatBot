@@ -11,6 +11,8 @@ logger = get_logger("api.main")
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     logger.info("HealthFundIQ API starting up")
+    from embeddings.embedder import _get_model
+    _get_model()  # load model into memory once at startup (~15-30 s)
     try:
         from embeddings.store import _ensure_collection
         _ensure_collection()
