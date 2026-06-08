@@ -11,7 +11,7 @@
   "platform_url": "https://groww.in/mutual-funds/sbi-pharma-fund-direct-growth",
   "official_url": null,
   "last_updated_from_source": "Oct 2013",
-  "fetch_timestamp": "2026-06-07T13:38:55.814375+05:30",
+  "fetch_timestamp": "2026-06-08T14:44:46.873454+05:30",
   "nav_or_price": "₹537.87",
   "aum": "₹4,323.29 Cr",
   "expense_ratio_or_mer_or_ter": null,
@@ -19,7 +19,7 @@
   "minimum_sip": null,
   "exit_load_or_redemption_fee": "0.50%",
   "benchmark": "BSE Healthcare Total Return Index",
-  "fund_management": "Check History",
+  "fund_management": null,
   "fund_house_or_issuer": "Scan QR code to download the app",
   "investment_objective": "The scheme seeks to provide the investors with the opportunity of long-term capital appreciation by investing in a diversified portfolio of equity and equity related securities in Healthcare space.",
   "risk_rating_or_riskometer": null,
@@ -93,6 +93,7 @@
   "missing_fields": [
     "expense_ratio_or_mer_or_ter",
     "minimum_investment",
+    "fund_management",
     "risk_rating_or_riskometer",
     "sector_exposure",
     "distribution_policy"
