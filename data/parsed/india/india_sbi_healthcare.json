@@ -11,8 +11,8 @@
   "platform_url": "https://groww.in/mutual-funds/sbi-pharma-fund-direct-growth",
   "official_url": null,
   "last_updated_from_source": "Oct 2013",
-  "fetch_timestamp": "2026-06-09T13:39:29.686321+05:30",
-  "nav_or_price": "₹537.76",
+  "fetch_timestamp": "2026-06-10T14:04:06.497984+05:30",
+  "nav_or_price": "₹542.74",
   "aum": "₹4,323.29 Cr",
   "expense_ratio_or_mer_or_ter": null,
   "minimum_investment": null,
@@ -27,49 +27,49 @@
   "tax_information": null,
   "top_10_holdings": [
     {
-      "name": "Sun Pharmaceutical Industries Ltd.",
+      "name": "Sun Pharmaceutical Industries Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Divi's Laboratories Ltd.",
+      "name": "Divi's Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Acutaas Chemicals Ltd.",
+      "name": "Ami Organics Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Apollo Hospitals Enterprise Ltd.",
+      "name": "Apollo Hospitals Enterprise Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Max Healthcare Institute Ltd.",
+      "name": "Max Healthcare Institute Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Aster DM Healthcare Ltd.",
+      "name": "Aster DM Healthcare Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Lupin Ltd.",
+      "name": "Lupin Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Torrent Pharmaceuticals Ltd.",
+      "name": "Torrent Pharmaceuticals Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -81,8 +81,8 @@
       "isin": null
     },
     {
-      "name": "Aether Industries Ltd.",
-      "weight": "Chemicals",
+      "name": "Aether Industries Ltd",
+      "weight": "Materials",
       "ticker": null,
       "isin": null
     }

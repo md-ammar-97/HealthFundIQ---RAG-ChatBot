@@ -11,10 +11,10 @@
   "platform_url": "https://groww.in/mutual-funds/mirae-asset-healthcare-fund-direct-growth",
   "official_url": "https://www.miraeassetmf.co.in/mutual-fund-scheme/equity-fund/mirae-asset-healthcare-fund",
   "last_updated_from_source": "April 2025",
-  "fetch_timestamp": "2026-06-09T13:39:24.553706+05:30",
-  "nav_or_price": "₹47.37",
+  "fetch_timestamp": "2026-06-10T14:04:01.049721+05:30",
+  "nav_or_price": "₹47.74",
   "aum": "₹2,939.23 Cr",
-  "expense_ratio_or_mer_or_ter": "0.85%",
+  "expense_ratio_or_mer_or_ter": "0.88%",
   "minimum_investment": null,
   "minimum_sip": "99.00",
   "exit_load_or_redemption_fee": null,
@@ -27,61 +27,61 @@
   "tax_information": null,
   "top_10_holdings": [
     {
-      "name": "Sun Pharmaceutical Industries Ltd.",
+      "name": "Sun Pharmaceutical Industries Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Divi's Laboratories Ltd.",
+      "name": "Divi's Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Glenmark Pharmaceuticals Ltd.",
+      "name": "Glenmark Pharmaceuticals Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Chemicals & Pharmaceuticals Ltd. — Healthcare",
+      "name": "Chemicals & Pharmaceuticals Ltd — Healthcare",
       "weight": null,
       "ticker": "JB",
       "isin": null
     },
     {
-      "name": "Apollo Hospitals Enterprise Ltd.",
+      "name": "Apollo Hospitals Enterprise Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Lupin Ltd.",
+      "name": "Lupin Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Dr. Reddy's Laboratories Ltd.",
+      "name": "Dr. Reddy's Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Aurobindo Pharma Ltd.",
+      "name": "Aurobindo Pharma Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Fortis Healthcare Ltd.",
+      "name": "Fortis Healthcare Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Laurus Labs Ltd.",
+      "name": "Laurus Labs Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
