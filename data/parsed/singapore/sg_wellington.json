@@ -11,7 +11,7 @@
   "platform_url": "https://www.wellington.com/en-sg/intermediary/funds/global-health-care-equity-fund",
   "official_url": "https://www.wellington.com/en-sg/intermediary/funds/global-health-care-equity-fund",
   "last_updated_from_source": "Oct 2003",
-  "fetch_timestamp": "2026-06-10T14:21:02.763285+05:30",
+  "fetch_timestamp": "2026-06-11T14:48:57.601890+05:30",
   "nav_or_price": null,
   "aum": "804.20m GBP",
   "expense_ratio_or_mer_or_ter": null,
@@ -28,25 +28,25 @@
   "top_10_holdings": [
     {
       "name": "Merck & Co IncMRK:NYQ",
-      "weight": "+50.76%",
+      "weight": "+46.39%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "AstraZeneca PLCAZN:LSE",
-      "weight": "+25.39%",
+      "weight": "+23.55%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Johnson & JohnsonJNJ:NYQ",
-      "weight": "+52.68%",
+      "weight": "+52.44%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "UnitedHealth Group IncUNH:NYQ",
-      "weight": "+36.22%",
+      "weight": "+34.13%",
       "ticker": null,
       "isin": null
     }
