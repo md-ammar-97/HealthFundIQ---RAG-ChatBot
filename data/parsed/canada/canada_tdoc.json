@@ -11,96 +11,34 @@
   "platform_url": "https://money.tmx.com/en/quote/TDOC",
   "official_url": "https://www.td.com/ca/en/asset-management/funds/solutions/etfs/fundcard?fundId=7192&fundname=TD-Global-Healthcare-Leaders-Index-ETF",
   "last_updated_from_source": null,
-  "fetch_timestamp": "2026-06-11T14:43:14.219857+05:30",
+  "fetch_timestamp": "2026-06-12T14:37:53.813743+05:30",
   "nav_or_price": null,
   "aum": null,
-  "expense_ratio_or_mer_or_ter": "1.26%",
+  "expense_ratio_or_mer_or_ter": null,
   "minimum_investment": null,
   "minimum_sip": null,
   "exit_load_or_redemption_fee": null,
   "benchmark": "Solactive Global Healthcare Leaders Index (CA NTR)",
   "fund_management": null,
-  "fund_house_or_issuer": "See More",
+  "fund_house_or_issuer": null,
   "investment_objective": "TD Global Healthcare Leaders Index ETF seeks to track, to the extent reasonably possible and before the deduction of fees and expenses, the performance of a global equity index which measures the investment return of global issuers related to healthcare. Currently, this TD ETF seeks to track the Solactive Global Healthcare Leaders Index (CA NTR) (or any successor thereto), which tracks the performance of securities of global large and mid-capitalization issuers that are related to healthcare.",
   "risk_rating_or_riskometer": null,
   "distribution_policy": "Quarterly",
   "tax_information": null,
-  "top_10_holdings": [
-    {
-      "name": "Johnson & Johnson",
-      "weight": "2.42%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Unitedhealth Group",
-      "weight": "2.37%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Bristol-Myers Squibb Company",
-      "weight": "2.33%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Pfizer Inc",
-      "weight": "2.31%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Gilead Sciences Inc",
-      "weight": "2.30%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "plc —",
-      "weight": "2.23%",
-      "ticker": "GSK",
-      "isin": null
-    },
-    {
-      "name": "Amgen Inc",
-      "weight": "2.21%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Merck & Company",
-      "weight": "2.20%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Mckesson Corp",
-      "weight": "2.16%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "AstraZeneca PLC",
-      "weight": "2.16%",
-      "ticker": null,
-      "isin": null
-    }
-  ],
-  "sector_exposure": [
-    {
-      "label": "TDOC.TO : 18.83 (",
-      "weight": "1.26%"
-    }
-  ],
+  "top_10_holdings": null,
+  "sector_exposure": null,
   "geographic_exposure": null,
   "documents": null,
   "missing_fields": [
     "nav_or_price",
     "aum",
+    "expense_ratio_or_mer_or_ter",
     "minimum_investment",
     "fund_management",
-    "risk_rating_or_riskometer"
+    "fund_house_or_issuer",
+    "risk_rating_or_riskometer",
+    "top_10_holdings",
+    "sector_exposure"
   ],
   "extraction_notes": []
 }
