@@ -11,7 +11,7 @@
   "platform_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BYZK4776",
   "official_url": "https://www.ishares.com/uk/individual/en/products/284216/ishares-healthcare-innovation-ucits-etf",
   "last_updated_from_source": "September 2016",
-  "fetch_timestamp": "2026-06-12T14:48:44.390044+05:30",
+  "fetch_timestamp": "2026-06-13T13:47:55.965505+05:30",
   "nav_or_price": null,
   "aum": "EUR 859 m",
   "expense_ratio_or_mer_or_ter": null,
@@ -28,25 +28,25 @@
   "top_10_holdings": [
     {
       "name": "Ucb SAUCB:BRU",
-      "weight": "+67.53%",
+      "weight": "+68.08%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Johnson & JohnsonJNJ:NYQ",
-      "weight": "+53.50%",
+      "weight": "+53.75%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Moderna IncMRNA:NSQ",
-      "weight": "+78.88%",
+      "weight": "+82.49%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Merck & Co IncMRK:NYQ",
-      "weight": "+50.35%",
+      "weight": "+45.50%",
       "ticker": null,
       "isin": null
     }

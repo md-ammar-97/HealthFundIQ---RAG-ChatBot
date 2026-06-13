@@ -11,34 +11,96 @@
   "platform_url": "https://money.tmx.com/en/quote/TDOC",
   "official_url": "https://www.td.com/ca/en/asset-management/funds/solutions/etfs/fundcard?fundId=7192&fundname=TD-Global-Healthcare-Leaders-Index-ETF",
   "last_updated_from_source": null,
-  "fetch_timestamp": "2026-06-12T14:37:53.813743+05:30",
+  "fetch_timestamp": "2026-06-13T13:44:58.254544+05:30",
   "nav_or_price": null,
   "aum": null,
-  "expense_ratio_or_mer_or_ter": null,
+  "expense_ratio_or_mer_or_ter": "0.31%",
   "minimum_investment": null,
   "minimum_sip": null,
   "exit_load_or_redemption_fee": null,
   "benchmark": "Solactive Global Healthcare Leaders Index (CA NTR)",
   "fund_management": null,
-  "fund_house_or_issuer": null,
+  "fund_house_or_issuer": "See More",
   "investment_objective": "TD Global Healthcare Leaders Index ETF seeks to track, to the extent reasonably possible and before the deduction of fees and expenses, the performance of a global equity index which measures the investment return of global issuers related to healthcare. Currently, this TD ETF seeks to track the Solactive Global Healthcare Leaders Index (CA NTR) (or any successor thereto), which tracks the performance of securities of global large and mid-capitalization issuers that are related to healthcare.",
   "risk_rating_or_riskometer": null,
   "distribution_policy": "Quarterly",
   "tax_information": null,
-  "top_10_holdings": null,
-  "sector_exposure": null,
+  "top_10_holdings": [
+    {
+      "name": "Unitedhealth Group",
+      "weight": "2.56%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Eli Lilly and Company",
+      "weight": "2.39%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Anthem Inc",
+      "weight": "2.23%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Abbvie Inc",
+      "weight": "2.12%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Vertex Pharmaceutic",
+      "weight": "2.07%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Thermo Fisher Scientific",
+      "weight": "2.03%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Merck & Company",
+      "weight": "2.00%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Pfizer Inc",
+      "weight": "1.99%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Bristol-Myers Squibb Company",
+      "weight": "1.99%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Amgen Inc",
+      "weight": "1.96%",
+      "ticker": null,
+      "isin": null
+    }
+  ],
+  "sector_exposure": [
+    {
+      "label": "TDOC.TO : 19.08 (",
+      "weight": "0.31%"
+    }
+  ],
   "geographic_exposure": null,
   "documents": null,
   "missing_fields": [
     "nav_or_price",
     "aum",
-    "expense_ratio_or_mer_or_ter",
     "minimum_investment",
     "fund_management",
-    "fund_house_or_issuer",
-    "risk_rating_or_riskometer",
-    "top_10_holdings",
-    "sector_exposure"
+    "risk_rating_or_riskometer"
   ],
   "extraction_notes": []
 }
