@@ -11,7 +11,7 @@
   "platform_url": "https://groww.in/mutual-funds/hdfc-pharma-and-healthcare-fund-direct-growth",
   "official_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-pharma-and-healthcare-fund/direct",
   "last_updated_from_source": "Dec 1999",
-  "fetch_timestamp": "2026-06-14T14:04:17.278676+05:30",
+  "fetch_timestamp": "2026-06-15T16:15:02.956347+05:30",
   "nav_or_price": "₹20.31",
   "aum": "₹2,362.44 Cr",
   "expense_ratio_or_mer_or_ter": "0.67%",
@@ -27,25 +27,19 @@
   "tax_information": null,
   "top_10_holdings": [
     {
-      "name": "Divi's Laboratories Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
       "name": "Sun Pharmaceutical Industries Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Lupin Ltd",
+      "name": "Divi's Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Glenmark Pharmaceuticals Ltd",
+      "name": "Lupin Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -58,6 +52,18 @@
     },
     {
       "name": "Aster DM Healthcare Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Cipla Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Ami Organics Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -76,12 +82,6 @@
     },
     {
       "name": "Ipca Laboratories Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Cipla Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null

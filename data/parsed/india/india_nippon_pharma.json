@@ -11,7 +11,7 @@
   "platform_url": "https://groww.in/mutual-funds/nippon-india-pharma-fund-direct-growth",
   "official_url": "https://mf.nipponindiaim.com/FundsAndPerformance/Pages/NipponIndia-Pharma-Fund.aspx",
   "last_updated_from_source": "Jun 2026",
-  "fetch_timestamp": "2026-06-14T14:04:46.468168+05:30",
+  "fetch_timestamp": "2026-06-15T16:15:32.556264+05:30",
   "nav_or_price": "₹10,000",
   "aum": "₹8,635.75 Cr",
   "expense_ratio_or_mer_or_ter": "0.50%",
@@ -19,7 +19,7 @@
   "minimum_sip": null,
   "exit_load_or_redemption_fee": null,
   "benchmark": "BSE Healthcare TRI",
-  "fund_management": "Check History",
+  "fund_management": null,
   "fund_house_or_issuer": null,
   "investment_objective": "Fund PerformanceGrowth Plan - Growth Option Latest NAV (12 Jun 2026)538.5606 Returns NAVs For the investment amount of 10,000 Scheme Plan NAV NAV Date Change Since Last NAV Change Since Last NAV (%) Direct Growth Plan Bonus Option 604.7016 12-06-2026 3.02 0.50 Direct IDCW Option 165.4940 12-06-2026 0.83 0.50 Direct Growth Plan 604.7016 12-06-2026 3.02 0.50 Growth Plan Bonus Option 538.5606 12-06-2026 2.68 0.50 IDCW Option 116.2989 12-06-2026 0.58 0.50 Growth Plan - Growth Option 538.5606 12-06-2026 2.68 0.50 OldFundDetailsNippon India Pharma FundFund / Benchmark(Value of ₹10,000 invested)1 Year3 Year5 YearSince InceptionAmount in ₹Returns (%)Amount in ₹Returns (%)Amount in ₹Returns (%)Amount in ₹Returns (%)NAV as on May 29, 2026: ₹533.2115Nippon India Pharma Fund - Regular​​ Inception Date : Jun 5, 2004Nippon India Pharma Fund10,5765.7818,40922.5818,23912.785,33,20719.82B:BSE Healthcare TRI11,04610.4920,11526.2619,66914.502,43,49815.62AB:BSE Sensex TRI9,279-7.2312,3577.3215,2768.852,06,61914.76NAV as on May 29, 2026: ₹598.5008Nippon India Pharma Fund - Direct Inception Date : Jan 1, 2013Nippon India Pharma Fund10,6716.7318,91023.6919,07713.8086,07317.41B:BSE Healthcare TRI11,04610.4920,11526.2619,66914.5062,24914.60AB:BSE Sensex TRI9,279-7.2312,3577.3215,2768.8545,32111.93Fund Manager : Sailesh Raj Bhan (Since Jun 2004)As TRI data is not available since Since Inception of the scheme, benchmark performance is calculated using composite CAGR of BSE HC PRI values from date 04-Jun-2004 to date 23-Aug-2004 and TRI values since date 23-Aug-2004 PERFORMANCE OF OTHER OPEN ENDED SCHEMES MANAGED BY FUND MANAGER: Sailesh Raj Bhan​Scheme Name/sCAGR %1 Year Return 3 Years Return5 Years ReturnRegular SchemeDirect SchemeBenchmarkRegular SchemeDirect SchemeBenchmarkRegular SchemeDirect SchemeBenchmarkNippon India Multi Cap Fund0.661.441.4318.2319.1616.4319.6920.6014.47Nippon India Large Cap Fund-1.51-0.70-2.3014.0915.0611.1715.0216.0011.04 Note:a.Mr. Sailesh Raj Bhan manages 3 open",
   "risk_rating_or_riskometer": null,
@@ -45,13 +45,13 @@
       "isin": null
     },
     {
-      "name": "Divi's Laboratories Ltd",
+      "name": "Cipla Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Cipla Ltd",
+      "name": "Divi's Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -63,13 +63,13 @@
       "isin": null
     },
     {
-      "name": "Medplus Health Services Ltd",
+      "name": "Mankind Pharma Ltd.",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Vijaya Diagnostic Centre Ltd",
+      "name": "Medplus Health Services Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -92,6 +92,7 @@
   "documents": null,
   "missing_fields": [
     "minimum_investment",
+    "fund_management",
     "fund_house_or_issuer",
     "risk_rating_or_riskometer",
     "sector_exposure",

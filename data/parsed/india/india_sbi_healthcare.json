@@ -11,7 +11,7 @@
   "platform_url": "https://groww.in/mutual-funds/sbi-pharma-fund-direct-growth",
   "official_url": null,
   "last_updated_from_source": "Oct 2013",
-  "fetch_timestamp": "2026-06-14T14:05:07.315817+05:30",
+  "fetch_timestamp": "2026-06-15T16:15:51.432171+05:30",
   "nav_or_price": "₹545.63",
   "aum": "₹4,565.95 Cr",
   "expense_ratio_or_mer_or_ter": null,
@@ -19,7 +19,7 @@
   "minimum_sip": null,
   "exit_load_or_redemption_fee": "0.50%",
   "benchmark": "BSE Healthcare Total Return Index",
-  "fund_management": "Check History",
+  "fund_management": null,
   "fund_house_or_issuer": "Scan QR code to download the app",
   "investment_objective": "The scheme seeks to provide the investors with the opportunity of long-term capital appreciation by investing in a diversified portfolio of equity and equity related securities in Healthcare space.",
   "risk_rating_or_riskometer": null,
@@ -57,13 +57,25 @@
       "isin": null
     },
     {
+      "name": "Aurobindo Pharma Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
       "name": "Aster DM Healthcare Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Lupin Ltd",
+      "name": "Laurus Labs Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Biocon Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -71,18 +83,6 @@
     {
       "name": "Torrent Pharmaceuticals Ltd",
       "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Anthem Biosciences Ltd.",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Aether Industries Ltd",
-      "weight": "Materials",
       "ticker": null,
       "isin": null
     }
@@ -93,6 +93,7 @@
   "missing_fields": [
     "expense_ratio_or_mer_or_ter",
     "minimum_investment",
+    "fund_management",
     "risk_rating_or_riskometer",
     "sector_exposure",
     "distribution_policy"

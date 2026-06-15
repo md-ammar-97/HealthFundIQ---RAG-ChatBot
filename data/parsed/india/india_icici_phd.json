@@ -11,7 +11,7 @@
   "platform_url": "https://groww.in/mutual-funds/icici-prudential-pharma-healthcare-and-diagnostics-%28p.h.d%29-fund-direct-growth",
   "official_url": "https://www.icicipruamc.com/mutual-fund/equity-funds/icici-prudential-pharma-healthcare-and-diagnostics-%28p.h.d%29-fund/1634",
   "last_updated_from_source": "Oct 1993",
-  "fetch_timestamp": "2026-06-14T14:05:17.995271+05:30",
+  "fetch_timestamp": "2026-06-15T16:16:01.269599+05:30",
   "nav_or_price": "₹45.09",
   "aum": "₹6,453.52 Cr",
   "expense_ratio_or_mer_or_ter": "1.2%",
@@ -28,6 +28,12 @@
   "top_10_holdings": [
     {
       "name": "Sun Pharmaceutical Industries Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Dr. Reddy's Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -51,8 +57,8 @@
       "isin": null
     },
     {
-      "name": "Dr. Reddy's Laboratories Ltd",
-      "weight": "Healthcare",
+      "name": "Repo",
+      "weight": "Unspecified",
       "ticker": null,
       "isin": null
     },
@@ -69,19 +75,13 @@
       "isin": null
     },
     {
-      "name": "Lupin Ltd",
+      "name": "Alkem Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Medplus Health Services Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Alkem Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
