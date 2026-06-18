@@ -11,28 +11,21 @@
   "platform_url": "https://finance.yahoo.com/quote/2639.T/",
   "official_url": "https://globalxetfs.co.jp/en/funds/2639/index.html",
   "last_updated_from_source": "Jun 2021",
-  "fetch_timestamp": "2026-06-17T15:02:38.203583+05:30",
+  "fetch_timestamp": "2026-06-18T14:45:20.038913+05:30",
   "nav_or_price": null,
-  "aum": "¥334,296,065",
+  "aum": "¥336,679,935",
   "expense_ratio_or_mer_or_ter": null,
   "minimum_investment": null,
   "minimum_sip": null,
   "exit_load_or_redemption_fee": null,
   "benchmark": "FactSet Japan Bio & Med Technologies Index",
   "fund_management": null,
-  "fund_house_or_issuer": "Global X Japan Co. Ltd.",
+  "fund_house_or_issuer": null,
   "investment_objective": "The Global X Japan Bio & Med Tech ETF seeks to provide investment results that correspond generally to the price and yield performance, before fees and expenses, of the FactSet Japan Bio & Med Technologies Index.",
   "risk_rating_or_riskometer": null,
   "distribution_policy": "Distribution",
   "tax_information": null,
-  "top_10_holdings": [
-    {
-      "name": "32",
-      "weight": null,
-      "ticker": null,
-      "isin": null
-    }
-  ],
+  "top_10_holdings": null,
   "sector_exposure": null,
   "geographic_exposure": null,
   "documents": null,
@@ -41,7 +34,9 @@
     "expense_ratio_or_mer_or_ter",
     "minimum_investment",
     "fund_management",
+    "fund_house_or_issuer",
     "risk_rating_or_riskometer",
+    "top_10_holdings",
     "sector_exposure"
   ],
   "extraction_notes": []
