@@ -11,9 +11,9 @@
   "platform_url": "https://money.tmx.com/en/quote/HHL",
   "official_url": "https://harvestportfolios.com/etf/hhl/",
   "last_updated_from_source": null,
-  "fetch_timestamp": "2026-07-06T14:26:39.608989+05:30",
-  "nav_or_price": "$7.29",
-  "aum": "$2000.35M",
+  "fetch_timestamp": "2026-07-07T13:37:52.333926+05:30",
+  "nav_or_price": "$7.21",
+  "aum": "$1977.81M",
   "expense_ratio_or_mer_or_ter": null,
   "minimum_investment": null,
   "minimum_sip": null,
@@ -27,8 +27,8 @@
   "tax_information": null,
   "top_10_holdings": [
     {
-      "name": "Agilent Technologies, Inc.",
-      "weight": "A US",
+      "name": "AbbVie Inc.",
+      "weight": "ABBV US",
       "ticker": null,
       "isin": null
     },
@@ -39,14 +39,20 @@
       "isin": null
     },
     {
-      "name": "AbbVie Inc.",
-      "weight": "ABBV US",
+      "name": "Johnson & Johnson",
+      "weight": "JNJ US",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Thermo Fisher Scientific Inc.",
-      "weight": "TMO US",
+      "name": "Merck & Co., Inc.",
+      "weight": "MRK US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Vertex Pharmaceuticals Incorporated",
+      "weight": "VRTX US",
       "ticker": null,
       "isin": null
     },
@@ -63,26 +69,20 @@
       "isin": null
     },
     {
-      "name": "Elevance Health, Inc.",
-      "weight": "ELV US",
-      "ticker": null,
-      "isin": null
-    },
-    {
       "name": "UnitedHealth Group Incorporated",
       "weight": "UNH US",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Vertex Pharmaceuticals Incorporated",
-      "weight": "VRTX US",
+      "name": "Agilent Technologies, Inc.",
+      "weight": "A US",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "AstraZeneca PLC",
-      "weight": "AZN US",
+      "name": "Novartis AG",
+      "weight": "NVS US",
       "ticker": null,
       "isin": null
     }
