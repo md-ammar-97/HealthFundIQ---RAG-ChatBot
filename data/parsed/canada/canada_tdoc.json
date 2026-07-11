@@ -11,10 +11,10 @@
   "platform_url": "https://money.tmx.com/en/quote/TDOC",
   "official_url": "https://www.td.com/ca/en/asset-management/funds/solutions/etfs/fundcard?fundId=7192&fundname=TD-Global-Healthcare-Leaders-Index-ETF",
   "last_updated_from_source": null,
-  "fetch_timestamp": "2026-07-10T13:42:13.265646+05:30",
+  "fetch_timestamp": "2026-07-11T12:17:26.222143+05:30",
   "nav_or_price": null,
   "aum": null,
-  "expense_ratio_or_mer_or_ter": "0.30%",
+  "expense_ratio_or_mer_or_ter": "0.25%",
   "minimum_investment": null,
   "minimum_sip": null,
   "exit_load_or_redemption_fee": null,
@@ -28,69 +28,69 @@
   "top_10_holdings": [
     {
       "name": "Unitedhealth Group",
-      "weight": "2.56%",
+      "weight": "2.71%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Eli Lilly and Company",
-      "weight": "2.39%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Anthem Inc",
-      "weight": "2.23%",
+      "weight": "2.51%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Abbvie Inc",
-      "weight": "2.12%",
+      "weight": "2.37%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Vertex Pharmaceutic",
-      "weight": "2.07%",
+      "weight": "2.22%",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Thermo Fisher Scientific",
-      "weight": "2.03%",
+      "name": "Anthem Inc",
+      "weight": "2.12%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Johnson & Johnson",
+      "weight": "2.10%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Merck & Company",
-      "weight": "2.00%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Pfizer Inc",
-      "weight": "1.99%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Bristol-Myers Squibb Company",
-      "weight": "1.99%",
+      "weight": "2.09%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Amgen Inc",
-      "weight": "1.96%",
+      "weight": "2.04%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Thermo Fisher Scientific",
+      "weight": "2.00%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Danaher Corp",
+      "weight": "1.97%",
       "ticker": null,
       "isin": null
     }
   ],
   "sector_exposure": [
     {
-      "label": "TDOC.TO : 20.10 (",
-      "weight": "0.30%"
+      "label": "TDOC.TO : 20.05 (",
+      "weight": "0.25%"
     }
   ],
   "geographic_exposure": null,

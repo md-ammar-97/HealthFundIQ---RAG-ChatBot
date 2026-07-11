@@ -11,10 +11,10 @@
   "platform_url": "https://groww.in/mutual-funds/hdfc-pharma-and-healthcare-fund-direct-growth",
   "official_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-pharma-and-healthcare-fund/direct",
   "last_updated_from_source": "Dec 1999",
-  "fetch_timestamp": "2026-07-10T13:29:57.891584+05:30",
-  "nav_or_price": "₹21.31",
+  "fetch_timestamp": "2026-07-11T12:05:13.434536+05:30",
+  "nav_or_price": "₹21.35",
   "aum": "₹2,611.33 Cr",
-  "expense_ratio_or_mer_or_ter": "1.52%",
+  "expense_ratio_or_mer_or_ter": "0.19%",
   "minimum_investment": null,
   "minimum_sip": null,
   "exit_load_or_redemption_fee": "1.0%",
@@ -39,25 +39,25 @@
       "isin": null
     },
     {
-      "name": "Lupin Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
       "name": "Max Healthcare Institute Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Aster DM Healthcare Ltd",
+      "name": "Lupin Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Cipla Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Aster DM Healthcare Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
