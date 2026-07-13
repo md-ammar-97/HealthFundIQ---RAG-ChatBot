@@ -11,9 +11,9 @@
   "platform_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BM67HK77",
   "official_url": "https://etf.dws.com/en-ch/IE00BM67HK77-msci-world-health-care-ucits-etf-1c/",
   "last_updated_from_source": "March 2016",
-  "fetch_timestamp": "2026-07-12T12:57:55.988803+05:30",
+  "fetch_timestamp": "2026-07-13T13:36:43.460675+05:30",
   "nav_or_price": null,
-  "aum": "EUR 3,290 m",
+  "aum": "EUR 3,295 m",
   "expense_ratio_or_mer_or_ter": null,
   "minimum_investment": null,
   "minimum_sip": null,
@@ -46,7 +46,7 @@
     },
     {
       "name": "Roche Holding AGROP:SWX",
-      "weight": "+27.98%",
+      "weight": "+30.33%",
       "ticker": null,
       "isin": null
     }
