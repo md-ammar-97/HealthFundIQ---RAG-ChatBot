@@ -11,10 +11,10 @@
   "platform_url": "https://money.tmx.com/en/quote/TDOC",
   "official_url": "https://www.td.com/ca/en/asset-management/funds/solutions/etfs/fundcard?fundId=7192&fundname=TD-Global-Healthcare-Leaders-Index-ETF",
   "last_updated_from_source": null,
-  "fetch_timestamp": "2026-07-13T13:31:19.672858+05:30",
+  "fetch_timestamp": "2026-07-14T12:17:42.969842+05:30",
   "nav_or_price": null,
   "aum": null,
-  "expense_ratio_or_mer_or_ter": "0.25%",
+  "expense_ratio_or_mer_or_ter": "0.15%",
   "minimum_investment": null,
   "minimum_sip": null,
   "exit_load_or_redemption_fee": null,
@@ -89,8 +89,8 @@
   ],
   "sector_exposure": [
     {
-      "label": "TDOC.TO : 20.05 (",
-      "weight": "0.25%"
+      "label": "TDOC.TO : 20.02 (",
+      "weight": "0.15%"
     }
   ],
   "geographic_exposure": null,

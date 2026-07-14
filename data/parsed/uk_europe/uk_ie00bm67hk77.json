@@ -11,9 +11,9 @@
   "platform_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BM67HK77",
   "official_url": "https://etf.dws.com/en-ch/IE00BM67HK77-msci-world-health-care-ucits-etf-1c/",
   "last_updated_from_source": "March 2016",
-  "fetch_timestamp": "2026-07-13T13:36:43.460675+05:30",
+  "fetch_timestamp": "2026-07-14T12:23:15.168188+05:30",
   "nav_or_price": null,
-  "aum": "EUR 3,295 m",
+  "aum": "EUR 3,291 m",
   "expense_ratio_or_mer_or_ter": null,
   "minimum_investment": null,
   "minimum_sip": null,
@@ -28,25 +28,25 @@
   "top_10_holdings": [
     {
       "name": "Johnson & JohnsonJNJ:NYQ",
-      "weight": "+62.97%",
+      "weight": "+64.29%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Abbvie IncABBV:NYQ",
-      "weight": "+27.22%",
+      "weight": "+28.86%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "UnitedHealth Group IncUNH:NYQ",
-      "weight": "+41.77%",
+      "weight": "+41.10%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Roche Holding AGROP:SWX",
-      "weight": "+30.33%",
+      "weight": "+28.78%",
       "ticker": null,
       "isin": null
     }
