@@ -11,7 +11,7 @@
   "platform_url": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Exchange-Traded-Products/Exchange-Traded-Products-Quote?sc_lang=en&sym=2820",
   "official_url": "https://www.globalxetfs.com.hk/funds/china-biotech-etf/",
   "last_updated_from_source": "Jul 2026",
-  "fetch_timestamp": "2026-07-17T12:22:07.569089+05:30",
+  "fetch_timestamp": "2026-07-18T12:12:04.892542+05:30",
   "nav_or_price": "¥61.53",
   "aum": "The Fund’s synthetic replication strategy may invest up to 50% of its net asset value in financial derivative instruments (“FDIs”), which may expose the Fund to counterparty/credit risk, liquidity risk, valuation risk, volatility risk and over-the-counter transaction risk. The Fund may suffer losses from its usage of FDIs.",
   "expense_ratio_or_mer_or_ter": null,
@@ -25,7 +25,14 @@
   "risk_rating_or_riskometer": null,
   "distribution_policy": null,
   "tax_information": null,
-  "top_10_holdings": null,
+  "top_10_holdings": [
+    {
+      "name": "2820.HK",
+      "weight": "GX CN BIOTECH",
+      "ticker": null,
+      "isin": null
+    }
+  ],
   "sector_exposure": null,
   "geographic_exposure": null,
   "documents": null,
@@ -36,9 +43,10 @@
     "fund_house_or_issuer",
     "investment_objective",
     "risk_rating_or_riskometer",
-    "top_10_holdings",
     "sector_exposure",
     "distribution_policy"
   ],
-  "extraction_notes": []
+  "extraction_notes": [
+    "Fund name 'Global X China Biotech ETF (HKEX Quote)' not found in page — possible redirect to wrong fund"
+  ]
 }
