@@ -11,7 +11,7 @@
   "platform_url": "https://www.etf.com/XLV",
   "official_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-health-care-select-sector-spdr-etf-xlv",
   "last_updated_from_source": null,
-  "fetch_timestamp": "2026-07-28T12:42:45.391846+05:30",
+  "fetch_timestamp": "2026-07-29T12:48:37.571362+05:30",
   "nav_or_price": "$41.66",
   "aum": null,
   "expense_ratio_or_mer_or_ter": "0.08%",
@@ -23,7 +23,7 @@
   "fund_house_or_issuer": null,
   "investment_objective": null,
   "risk_rating_or_riskometer": null,
-  "distribution_policy": "Quarterly",
+  "distribution_policy": null,
   "tax_information": null,
   "top_10_holdings": [
     {
@@ -43,7 +43,8 @@
     "fund_house_or_issuer",
     "investment_objective",
     "risk_rating_or_riskometer",
-    "sector_exposure"
+    "sector_exposure",
+    "distribution_policy"
   ],
   "extraction_notes": []
 }
