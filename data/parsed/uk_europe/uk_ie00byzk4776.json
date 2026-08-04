@@ -11,7 +11,7 @@
   "platform_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BYZK4776",
   "official_url": "https://www.ishares.com/uk/individual/en/products/284216/ishares-healthcare-innovation-ucits-etf",
   "last_updated_from_source": "September 2016",
-  "fetch_timestamp": "2026-08-03T13:42:47.497051+05:30",
+  "fetch_timestamp": "2026-08-04T12:56:22.515815+05:30",
   "nav_or_price": null,
   "aum": "EUR 1,033 m",
   "expense_ratio_or_mer_or_ter": null,
@@ -28,25 +28,25 @@
   "top_10_holdings": [
     {
       "name": "Illumina IncILMN:NSQ",
-      "weight": "+99.69%",
+      "weight": "+109.34%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Abbott LaboratoriesABT:NYQ",
-      "weight": "-16.24%",
+      "weight": "-15.85%",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Abbvie IncABBV:NYQ",
-      "weight": "+32.76%",
+      "name": "AbbVie Inc.ABBV:NYQ",
+      "weight": "+25.55%",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Medpace Holdings IncMEDP:NSQ",
-      "weight": "+35.09%",
+      "name": "Medpace Holdings, Inc.MEDP:NSQ",
+      "weight": "+35.50%",
       "ticker": null,
       "isin": null
     }
