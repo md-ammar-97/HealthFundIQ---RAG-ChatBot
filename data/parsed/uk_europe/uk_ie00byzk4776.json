@@ -11,7 +11,7 @@
   "platform_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BYZK4776",
   "official_url": "https://www.ishares.com/uk/individual/en/products/284216/ishares-healthcare-innovation-ucits-etf",
   "last_updated_from_source": "September 2016",
-  "fetch_timestamp": "2026-08-10T11:40:06.656392+05:30",
+  "fetch_timestamp": "2026-08-11T11:21:32.034191+05:30",
   "nav_or_price": null,
   "aum": "EUR 1,074 m",
   "expense_ratio_or_mer_or_ter": null,
@@ -28,25 +28,25 @@
   "top_10_holdings": [
     {
       "name": "Guardant Health, Inc.GH:NSQ",
-      "weight": "+234.35%",
+      "weight": "+208.33%",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Illumina IncILMN:NSQ",
-      "weight": "+96.82%",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Natera, Inc.NTRA:NSQ",
-      "weight": "+128.31%",
-      "ticker": null,
+      "name": "Holdings IncIQV:NYQ — +",
+      "weight": "34.54%",
+      "ticker": "IQVIA",
       "isin": null
     },
     {
       "name": "Roivant Sciences LtdROIV:NSQ",
-      "weight": "+214.63%",
+      "weight": "+211.40%",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Celltrion Inc",
+      "weight": "+21.99%",
       "ticker": null,
       "isin": null
     }
