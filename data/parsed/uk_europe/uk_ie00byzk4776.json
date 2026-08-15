@@ -11,7 +11,7 @@
   "platform_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BYZK4776",
   "official_url": "https://www.ishares.com/uk/individual/en/products/284216/ishares-healthcare-innovation-ucits-etf",
   "last_updated_from_source": "September 2016",
-  "fetch_timestamp": "2026-08-14T11:40:04.655623+05:30",
+  "fetch_timestamp": "2026-08-15T10:42:21.775105+05:30",
   "nav_or_price": null,
   "aum": "EUR 1,092 m",
   "expense_ratio_or_mer_or_ter": null,
@@ -28,25 +28,25 @@
   "top_10_holdings": [
     {
       "name": "Moderna IncMRNA:NSQ",
-      "weight": "+136.71%",
+      "weight": "+137.24%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Holdings IncIQV:NYQ — +",
-      "weight": "26.96%",
+      "weight": "24.95%",
       "ticker": "IQVIA",
       "isin": null
     },
     {
       "name": "Guardant Health, Inc.GH:NSQ",
-      "weight": "+172.39%",
+      "weight": "+160.45%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Celltrion Inc",
-      "weight": "+21.20%",
+      "weight": "+20.60%",
       "ticker": null,
       "isin": null
     }
