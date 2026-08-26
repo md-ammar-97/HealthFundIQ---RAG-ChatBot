@@ -11,9 +11,9 @@
   "platform_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BYZK4776",
   "official_url": "https://www.ishares.com/uk/individual/en/products/284216/ishares-healthcare-innovation-ucits-etf",
   "last_updated_from_source": "September 2016",
-  "fetch_timestamp": "2026-08-25T10:50:24.283501+05:30",
+  "fetch_timestamp": "2026-08-26T10:50:43.395107+05:30",
   "nav_or_price": null,
-  "aum": "EUR 1,154 m",
+  "aum": "EUR 1,152 m",
   "expense_ratio_or_mer_or_ter": null,
   "minimum_investment": null,
   "minimum_sip": null,
@@ -28,25 +28,25 @@
   "top_10_holdings": [
     {
       "name": "Natera, Inc.NTRA:NSQ",
-      "weight": "+97.90%",
+      "weight": "+107.24%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Holdings Inc.IQV:NYQ — +",
-      "weight": "36.14%",
+      "weight": "37.97%",
       "ticker": "IQVIA",
       "isin": null
     },
     {
       "name": "Genmab A/SGMAB:CPH",
-      "weight": "+34.52%",
+      "weight": "+39.47%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Illumina IncILMN:NSQ",
-      "weight": "+119.27%",
+      "weight": "+125.76%",
       "ticker": null,
       "isin": null
     }
