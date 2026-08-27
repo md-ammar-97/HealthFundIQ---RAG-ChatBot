@@ -11,8 +11,8 @@
   "platform_url": "https://groww.in/mutual-funds/sbi-pharma-fund-direct-growth",
   "official_url": null,
   "last_updated_from_source": "Oct 2013",
-  "fetch_timestamp": "2026-08-26T10:36:22.849406+05:30",
-  "nav_or_price": "₹600.96",
+  "fetch_timestamp": "2026-08-27T20:55:31.513422+05:30",
+  "nav_or_price": "₹602.03",
   "aum": "₹5,399.88 Cr",
   "expense_ratio_or_mer_or_ter": "0.75%",
   "minimum_investment": null,
@@ -33,13 +33,19 @@
       "isin": null
     },
     {
+      "name": "Divi's Laboratories Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
       "name": "Ami Organics Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Divi's Laboratories Ltd",
+      "name": "Cipla Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -51,7 +57,19 @@
       "isin": null
     },
     {
+      "name": "Torrent Pharmaceuticals Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
       "name": "Max Healthcare Institute Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Laurus Labs Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -64,24 +82,6 @@
     },
     {
       "name": "Aster DM Healthcare Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Laurus Labs Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Cipla Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Torrent Pharmaceuticals Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
