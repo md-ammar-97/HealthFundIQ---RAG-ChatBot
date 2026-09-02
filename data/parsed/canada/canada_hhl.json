@@ -11,9 +11,9 @@
   "platform_url": "https://money.tmx.com/en/quote/HHL",
   "official_url": "https://harvestportfolios.com/etf/hhl/",
   "last_updated_from_source": null,
-  "fetch_timestamp": "2026-09-01T15:09:26.972475+05:30",
-  "nav_or_price": "$7.44",
-  "aum": "$2070.48M",
+  "fetch_timestamp": "2026-09-02T14:34:20.303586+05:30",
+  "nav_or_price": "$7.47",
+  "aum": "$2081.11M",
   "expense_ratio_or_mer_or_ter": null,
   "minimum_investment": null,
   "minimum_sip": null,
@@ -33,44 +33,8 @@
       "isin": null
     },
     {
-      "name": "Boston Scientific Corporation",
-      "weight": "BSX US",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Bristol-Myers Squibb Company",
-      "weight": "BMY US",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Amgen Inc.",
-      "weight": "AMGN US",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Elevance Health, Inc.",
-      "weight": "ELV US",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Merck & Co., Inc.",
-      "weight": "MRK US",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Thermo Fisher Scientific Inc.",
-      "weight": "TMO US",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Abbott Laboratories",
-      "weight": "ABT US",
+      "name": "Vertex Pharmaceuticals Incorporated",
+      "weight": "VRTX US",
       "ticker": null,
       "isin": null
     },
@@ -81,8 +45,44 @@
       "isin": null
     },
     {
-      "name": "AstraZeneca PLC",
-      "weight": "AZN US",
+      "name": "Amgen Inc.",
+      "weight": "AMGN US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Danaher Corporation",
+      "weight": "DHR US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Thermo Fisher Scientific Inc.",
+      "weight": "TMO US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Boston Scientific Corporation",
+      "weight": "BSX US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Intuitive Surgical, Inc.",
+      "weight": "ISRG US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Bristol-Myers Squibb Company",
+      "weight": "BMY US",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Elevance Health, Inc.",
+      "weight": "ELV US",
       "ticker": null,
       "isin": null
     }
