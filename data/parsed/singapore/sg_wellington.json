@@ -11,7 +11,7 @@
   "platform_url": "https://www.wellington.com/en-sg/intermediary/funds/global-health-care-equity-fund",
   "official_url": "https://www.wellington.com/en-sg/intermediary/funds/global-health-care-equity-fund",
   "last_updated_from_source": "Oct 2003",
-  "fetch_timestamp": "2026-09-07T15:27:10.223602+05:30",
+  "fetch_timestamp": "2026-09-08T14:47:18.126271+05:30",
   "nav_or_price": null,
   "aum": "846.47m GBP",
   "expense_ratio_or_mer_or_ter": null,
@@ -40,7 +40,7 @@
     },
     {
       "name": "AstraZeneca PLCAZN:LSE",
-      "weight": "+0.79%",
+      "weight": "+0.07%",
       "ticker": null,
       "isin": null
     },
