@@ -11,7 +11,7 @@
   "platform_url": "https://groww.in/mutual-funds/sbi-pharma-fund-direct-growth",
   "official_url": null,
   "last_updated_from_source": "Oct 2013",
-  "fetch_timestamp": "2026-09-12T14:16:45.385151+05:30",
+  "fetch_timestamp": "2026-09-13T15:12:11.984032+05:30",
   "nav_or_price": "₹605.91",
   "aum": "₹5,796.42 Cr",
   "expense_ratio_or_mer_or_ter": "0.75%",
@@ -19,7 +19,7 @@
   "minimum_sip": null,
   "exit_load_or_redemption_fee": "0.50%",
   "benchmark": "BSE Healthcare Total Return Index",
-  "fund_management": "Check History",
+  "fund_management": "Mr. Tanmaya Desai",
   "fund_house_or_issuer": "Scan QR code to download the app",
   "investment_objective": "The scheme seeks to provide the investors with the opportunity of long-term capital appreciation by investing in a diversified portfolio of equity and equity related securities in Healthcare space.",
   "risk_rating_or_riskometer": null,
@@ -39,19 +39,13 @@
       "isin": null
     },
     {
-      "name": "Ami Organics Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Cipla Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
       "name": "Apollo Hospitals Enterprise Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Ami Organics Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -63,8 +57,20 @@
       "isin": null
     },
     {
+      "name": "Cipla Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
       "name": "Max Healthcare Institute Ltd",
       "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Repo",
+      "weight": "Unspecified",
       "ticker": null,
       "isin": null
     },
@@ -76,12 +82,6 @@
     },
     {
       "name": "Aurobindo Pharma Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Aster DM Healthcare Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
