@@ -11,9 +11,9 @@
   "platform_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B43HR379",
   "official_url": "https://www.ishares.com/uk/individual/en/products/280507/ishares-sp-500-health-care-sector-ucits-etf",
   "last_updated_from_source": "November 2015",
-  "fetch_timestamp": "2026-10-07T16:56:11.206349+05:30",
+  "fetch_timestamp": "2026-10-08T17:16:13.467812+05:30",
   "nav_or_price": null,
-  "aum": "EUR 2,804 m",
+  "aum": "EUR 2,781 m",
   "expense_ratio_or_mer_or_ter": null,
   "minimum_investment": null,
   "minimum_sip": null,
@@ -28,25 +28,25 @@
   "top_10_holdings": [
     {
       "name": "Johnson & JohnsonJNJ:NYQ",
-      "weight": "+35.41%",
+      "weight": "+36.83%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "AbbVie Inc.ABBV:NYQ",
-      "weight": "+15.86%",
+      "weight": "+16.55%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Merck & Co IncMRK:NYQ",
-      "weight": "+59.84%",
+      "weight": "+62.98%",
       "ticker": null,
       "isin": null
     },
     {
       "name": "UnitedHealth Group IncorporatedUNH:NYQ",
-      "weight": "+4.89%",
+      "weight": "+3.39%",
       "ticker": null,
       "isin": null
     }
