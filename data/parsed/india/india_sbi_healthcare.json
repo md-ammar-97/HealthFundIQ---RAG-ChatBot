@@ -11,9 +11,9 @@
   "platform_url": "https://groww.in/mutual-funds/sbi-pharma-fund-direct-growth",
   "official_url": null,
   "last_updated_from_source": "Oct 2013",
-  "fetch_timestamp": "2026-10-09T16:59:01.025549+05:30",
-  "nav_or_price": "₹570.03",
-  "aum": "₹5,796.41 Cr",
+  "fetch_timestamp": "2026-10-10T16:16:45.492996+05:30",
+  "nav_or_price": "₹573.55",
+  "aum": "₹5,869.99 Cr",
   "expense_ratio_or_mer_or_ter": "0.76%",
   "minimum_investment": null,
   "minimum_sip": null,
@@ -39,13 +39,19 @@
       "isin": null
     },
     {
-      "name": "Apollo Hospitals Enterprise Ltd",
-      "weight": "Healthcare",
+      "name": "Repo",
+      "weight": "Unspecified",
       "ticker": null,
       "isin": null
     },
     {
       "name": "Ami Organics Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Apollo Hospitals Enterprise Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -63,19 +69,13 @@
       "isin": null
     },
     {
-      "name": "Max Healthcare Institute Ltd",
+      "name": "Laurus Labs Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Repo",
-      "weight": "Unspecified",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Laurus Labs Ltd",
+      "name": "Max Healthcare Institute Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null

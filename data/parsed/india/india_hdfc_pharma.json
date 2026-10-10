@@ -11,10 +11,10 @@
   "platform_url": "https://groww.in/mutual-funds/hdfc-pharma-and-healthcare-fund-direct-growth",
   "official_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-pharma-and-healthcare-fund/direct",
   "last_updated_from_source": "Dec 1999",
-  "fetch_timestamp": "2026-10-09T16:58:09.109819+05:30",
-  "nav_or_price": "₹21.40",
-  "aum": "₹3,310.63 Cr",
-  "expense_ratio_or_mer_or_ter": "2.37%",
+  "fetch_timestamp": "2026-10-10T16:15:50.066116+05:30",
+  "nav_or_price": "₹21.56",
+  "aum": "₹3,501.36 Cr",
+  "expense_ratio_or_mer_or_ter": "0.77%",
   "minimum_investment": null,
   "minimum_sip": null,
   "exit_load_or_redemption_fee": "1.0%",
@@ -39,6 +39,30 @@
       "isin": null
     },
     {
+      "name": "Repo",
+      "weight": "Unspecified",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Alkem Laboratories Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Cipla Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Apollo Hospitals Enterprise Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
       "name": "Torrent Pharmaceuticals Ltd",
       "weight": "Healthcare",
       "ticker": null,
@@ -51,37 +75,13 @@
       "isin": null
     },
     {
-      "name": "Lupin Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Cipla Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
       "name": "Aster DM Healthcare Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Neuland Laboratories Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Anthem Biosciences Ltd.",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Ami Organics Ltd",
+      "name": "Lupin Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null

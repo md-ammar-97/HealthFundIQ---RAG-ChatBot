@@ -11,9 +11,9 @@
   "platform_url": "https://groww.in/mutual-funds/icici-prudential-pharma-healthcare-and-diagnostics-%28p.h.d%29-fund-direct-growth",
   "official_url": "https://www.icicipruamc.com/mutual-fund/equity-funds/icici-prudential-pharma-healthcare-and-diagnostics-%28p.h.d%29-fund/1634",
   "last_updated_from_source": "Oct 1993",
-  "fetch_timestamp": "2026-10-09T16:59:11.655521+05:30",
-  "nav_or_price": "₹44.63",
-  "aum": "₹6,995.61 Cr",
+  "fetch_timestamp": "2026-10-10T16:16:57.536269+05:30",
+  "nav_or_price": "₹44.81",
+  "aum": "₹6,861.20 Cr",
   "expense_ratio_or_mer_or_ter": "1.1%",
   "minimum_investment": "₹5,000/₹100",
   "minimum_sip": null,
@@ -45,6 +45,12 @@
       "isin": null
     },
     {
+      "name": "Biocon Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
       "name": "Mankind Pharma Ltd.",
       "weight": "Healthcare",
       "ticker": null,
@@ -57,7 +63,7 @@
       "isin": null
     },
     {
-      "name": "Divi's Laboratories Ltd",
+      "name": "Medplus Health Services Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -69,19 +75,13 @@
       "isin": null
     },
     {
-      "name": "Biocon Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Medplus Health Services Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
       "name": "Suven Pharmaceuticals Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Divi's Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
