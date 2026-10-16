@@ -11,10 +11,10 @@
   "platform_url": "https://groww.in/mutual-funds/mirae-asset-healthcare-fund-direct-growth",
   "official_url": "https://www.miraeassetmf.co.in/mutual-fund-scheme/equity-fund/mirae-asset-healthcare-fund",
   "last_updated_from_source": "April 2025",
-  "fetch_timestamp": "2026-10-15T14:49:40.865700+05:30",
-  "nav_or_price": "₹49.91",
+  "fetch_timestamp": "2026-10-16T14:42:55.527212+05:30",
+  "nav_or_price": "₹49.83",
   "aum": "₹3,494.44 Cr",
-  "expense_ratio_or_mer_or_ter": "8.52 %",
+  "expense_ratio_or_mer_or_ter": "8.69 %",
   "minimum_investment": null,
   "minimum_sip": "99.00",
   "exit_load_or_redemption_fee": null,
@@ -57,13 +57,13 @@
       "isin": null
     },
     {
-      "name": "Glenmark Pharmaceuticals Ltd",
+      "name": "Dr. Reddy's Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Dr. Reddy's Laboratories Ltd",
+      "name": "Glenmark Pharmaceuticals Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -75,13 +75,13 @@
       "isin": null
     },
     {
-      "name": "Ipca Laboratories Ltd",
+      "name": "Alkem Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Fortis Healthcare Ltd",
+      "name": "Ipca Laboratories Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
