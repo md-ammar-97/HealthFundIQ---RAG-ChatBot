@@ -11,9 +11,9 @@
   "platform_url": "https://groww.in/mutual-funds/sbi-pharma-fund-direct-growth",
   "official_url": null,
   "last_updated_from_source": "Nov 2023",
-  "fetch_timestamp": "2026-11-10T18:24:28.549452+05:30",
-  "nav_or_price": "₹318.0530",
-  "aum": "₹5,870.00 Cr",
+  "fetch_timestamp": "2026-11-11T17:33:03.758294+05:30",
+  "nav_or_price": "₹318.3303",
+  "aum": "₹6,067.13 Cr",
   "expense_ratio_or_mer_or_ter": "0.73%",
   "minimum_investment": null,
   "minimum_sip": null,
@@ -39,8 +39,8 @@
       "isin": null
     },
     {
-      "name": "Repo",
-      "weight": "Unspecified",
+      "name": "Max Healthcare Institute Ltd",
+      "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
@@ -57,7 +57,7 @@
       "isin": null
     },
     {
-      "name": "Torrent Pharmaceuticals Ltd",
+      "name": "Laurus Labs Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
@@ -69,13 +69,13 @@
       "isin": null
     },
     {
-      "name": "Laurus Labs Ltd",
-      "weight": "Healthcare",
+      "name": "Repo",
+      "weight": "Unspecified",
       "ticker": null,
       "isin": null
     },
     {
-      "name": "Max Healthcare Institute Ltd",
+      "name": "Torrent Pharmaceuticals Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
