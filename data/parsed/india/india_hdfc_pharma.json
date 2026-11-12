@@ -11,10 +11,10 @@
   "platform_url": "https://groww.in/mutual-funds/hdfc-pharma-and-healthcare-fund-direct-growth",
   "official_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-pharma-and-healthcare-fund/direct",
   "last_updated_from_source": "Nov 2023",
-  "fetch_timestamp": "2026-11-11T17:32:09.036599+05:30",
+  "fetch_timestamp": "2026-11-12T18:33:22.684136+05:30",
   "nav_or_price": "₹10.3830",
-  "aum": "₹3,501.37 Cr",
-  "expense_ratio_or_mer_or_ter": "2.86%",
+  "aum": "₹3,665.74 Cr",
+  "expense_ratio_or_mer_or_ter": "0.20%",
   "minimum_investment": null,
   "minimum_sip": null,
   "exit_load_or_redemption_fee": "1.0%",
@@ -39,8 +39,14 @@
       "isin": null
     },
     {
-      "name": "Repo",
-      "weight": "Unspecified",
+      "name": "Dr. Reddy's Laboratories Ltd",
+      "weight": "Healthcare",
+      "ticker": null,
+      "isin": null
+    },
+    {
+      "name": "Apollo Hospitals Enterprise Ltd",
+      "weight": "Healthcare",
       "ticker": null,
       "isin": null
     },
@@ -57,13 +63,7 @@
       "isin": null
     },
     {
-      "name": "Apollo Hospitals Enterprise Ltd",
-      "weight": "Healthcare",
-      "ticker": null,
-      "isin": null
-    },
-    {
-      "name": "Torrent Pharmaceuticals Ltd",
+      "name": "Ami Organics Ltd",
       "weight": "Healthcare",
       "ticker": null,
       "isin": null
